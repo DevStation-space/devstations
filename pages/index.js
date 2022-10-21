@@ -19,9 +19,9 @@ export default function Home() {
         <span className={styles.span}></span>
 
       </section>
-      <Header />
+      {/* <Header /> */}
       home
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
