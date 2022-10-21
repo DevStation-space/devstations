@@ -27,5 +27,8 @@
 }
 
 .listItem{
-    margin: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
 }

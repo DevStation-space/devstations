@@ -6,7 +6,8 @@ import styles from "../styles/Header.module.css"
 const Header = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.logo}>
+            <Link href='/'>
+                <div className={styles.logo}>
                 <Image
                     src={Logo}
                     alt="Logo"
@@ -14,6 +15,8 @@ const Header = () => {
                     width={100}
                 />
             </div>
+            </Link>
+            
             <div className={styles.rightSide}>
                 <ul className={styles.list}>
                     <Link href='/Community'>
