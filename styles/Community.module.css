@@ -49,6 +49,11 @@
 
 }
 
+.offer{
+    display:flex;
+    flex-direction: column;
+}
+
 .icon1{
     color:green;
     height:40px;

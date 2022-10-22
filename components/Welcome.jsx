@@ -21,7 +21,7 @@ const Welcome = () => {
     <span className={styles.dot15}></span>
     <span className={styles.dot16}></span>
     <span className={styles.dot17}></span>
-
+    <div className={styles.bgImage}></div>
     </div>
   )
 }

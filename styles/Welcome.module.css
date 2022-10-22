@@ -96,6 +96,14 @@
 
 .dot9 {
     position: absolute;
+    left: 28.48%;
+    right: 70.92%;
+    top: 2.38%;
+    bottom: 97.45%;
+    height: 5px;
+    width: 5px;
+    background: #E98333;
+    mix-blend-mode: lighten;
 }
 
 .dot10 {
@@ -128,4 +136,18 @@
 
 .dot17 {
     position: absolute;
+}
+
+.bgImage {
+    background-image: url("../assets/images/Group.png");
+    position: absolute;
+    left: 18.46%;
+    right: 78.9%;
+    top: 9.37%;
+    bottom: 89.55%;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
 }
