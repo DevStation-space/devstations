@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>Dev Station</title>
-        {/* <link rel="icon" href="../assets/images/favicon.ico" /> */}
 
       </Head>
      <Header/>

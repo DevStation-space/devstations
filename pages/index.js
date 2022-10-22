@@ -10,7 +10,6 @@ export default function Home() {
     <div className={styles.wrapper}>
       <Head>
         <title>Dev Station</title>
-        <link rel="icon" href="../assets/images/favicon.ico" />
         <meta name="description" content="Dev Station " />
       </Head>
       <section className={styles.section}>
