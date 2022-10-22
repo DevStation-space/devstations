@@ -13,7 +13,11 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
-    "shooting-stars": "^0.0.6"
+    "react-tsparticles": "^2.3.3",
+    "shooting-stars": "^0.0.6",
+    "tsparticles": "^2.3.4",
+    "tsparticles-preset-bubbles": "^2.3.4",
+    "tsparticles-preset-stars": "^2.3.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
