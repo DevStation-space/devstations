@@ -1,10 +1,11 @@
 .wrapper{
 
     padding:0 20px;
+    height: 100vh;
     /* background-image: url("../assets/image/background.png"); */
 } 
 
-.section{
+/* .section{
   position: absolute;
   top: 0;
   left: 0;
@@ -140,4 +141,4 @@
   left:initial;
   animation-delay:2.75s ;
   animation-duration: 2.25s;
-}
+} */
