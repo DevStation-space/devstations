@@ -3,7 +3,8 @@
 }
 
 .container {
-    background-color: #0E0C0C;
+    background-color: black;
+    color:#FFFFFF;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -11,6 +12,8 @@
     align-items: center;
     padding: 10px 30px;
     margin: 10px 30px;
+    position: fixed;
+    bottom:0;
 }
 
 .social {
