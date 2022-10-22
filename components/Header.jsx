@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <>
             <nav className=" ">
-                <div className="flex  justify-between px-20">
+                <div className="flex  justify-between md:px-20 px-4">
                     <Link href='/' alt=''>
                         <div className="flex flex-row justify-center cursor-pointer items-center">
                             <div className="w-20 h-20  rounded-full items-center">
@@ -58,7 +58,7 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex relative">
+                    <div className="flex relative items-center">
                         {toggleMenu ? (
                             <AiOutlineClose
                                 fontSize={28}
@@ -74,7 +74,7 @@ const Header = () => {
                         )}
                         {toggleMenu && (
                             <ul
-                                className="z-10 fixed top-0 -right-2 p-3 w-[50vw] h-screen shadow-xl md:hidden list-none
+                                className="z-10 fixed top-0 -right-2 p-3 w-[40vw] h-screen shadow-xl md:hidden list-none
                 flex flex-col justify-start items-center rounded-md blueGlassmorphism text-white animate-slide-in"
                             >
                                 <li className="text-xl w-full my-2">

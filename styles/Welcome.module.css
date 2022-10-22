@@ -1,0 +1,11 @@
+.dot{
+    position: absolute;
+left: 79.59%;
+right: 19.82%;
+top: 14.97%;
+bottom: 84.86%;
+height: 10px;
+width: 10px;
+background: #FCD05C;
+mix-blend-mode: lighten;
+}
