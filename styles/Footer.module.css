@@ -1,9 +1,11 @@
 .wrapper {
     padding: 20px;
+    
 }
 
 .container {
     background-color: #0E0C0C;
+    color:#FFFFFF;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -11,6 +13,7 @@
     align-items: center;
     padding: 10px 30px;
     margin: 10px 30px;
+   
 }
 
 .social {

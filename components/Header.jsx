@@ -9,7 +9,7 @@ const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <>
-            <nav className=" ">
+            <nav >
                 <div className="flex  justify-between md:px-20 px-4">
                     <Link href='/' alt=''>
                         <div className="flex flex-row justify-center cursor-pointer items-center">

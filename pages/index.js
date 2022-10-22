@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Events from "../components/Events";
 import Particle from "../components/Particle";
 import Welcome from "../components/Welcome";
 import styles from "../styles/Home.module.css";
@@ -14,6 +15,7 @@ export default function Home() {
       {/* <Header /> */}
       <Particle/>
       <Welcome/>
+      <Events/>
       {/* <Footer /> */}
     </div>
   );

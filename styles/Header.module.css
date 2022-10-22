@@ -4,6 +4,7 @@
     flex-direction: row;
     padding: 10px 30px;
     background-color: black;
+    color:white;
 }
 
 
@@ -74,13 +75,10 @@
 }
     
 
-
-    
-
-
 .listItem{
     margin: 0 20px;
     cursor: pointer;
     font-weight: 400;
     font-size: 18px;
 }
+

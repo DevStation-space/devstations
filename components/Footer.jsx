@@ -4,7 +4,7 @@ import { FaInstagramSquare, FaDiscord, FaTwitter } from "react-icons/fa"
 import { BsLinkedin } from "react-icons/bs"
 const Footer = () => {
     return (
-        <div className={`flex  ${styles.wrapper}`}>
+        <div className={`  ${styles.wrapper}`}>
             <div className={styles.container}>
                 <div className={styles.bio}>
                     <h1 className={styles.heading}>

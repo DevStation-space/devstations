@@ -12,3 +12,17 @@
     background-repeat: no-repeat;
     /* background-size: contain; */
 }
+
+.gradPara{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 46px;
+padding: 10px;
+background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
