@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
      <Header/>
-     <Particle/>
+     {/* <Particle/> */}
       <Component {...pageProps} />
       <Footer/>
     </div>
