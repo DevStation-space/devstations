@@ -1,0 +1,27 @@
+.what__we__offer{
+    color:white;
+    position:absolute;
+    left:3%;
+    right:3.12%;
+    top:900px;
+    bottom:39.04%;
+    border-radius:70px;
+    background-color: brown;
+    border-radius:70px;
+}
+
+.what__we__offer h1{
+    position:absolute;
+    width:465px;
+    height:390px;
+    left:250px;
+    
+
+}
+
+.offer span{
+    font-size:34px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
