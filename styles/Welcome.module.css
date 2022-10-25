@@ -1,4 +1,3 @@
-
 .bgImage {
     background-image: url("../assets/images/Group.png");
     position: absolute;
@@ -13,16 +12,46 @@
     /* background-size: contain; */
 }
 
-.gradPara{
+.gradPara {
     font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-padding: 10px;
-background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .bgImage {
+        background-image: url("../assets/images/Group.png");
+        position: absolute;
+        left: 18.46%;
+        right: 78.9%;
+        top: 9.37%;
+        bottom: 89.55%;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+    }
+    .gradPara {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 5px 10px;
+        background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
 }

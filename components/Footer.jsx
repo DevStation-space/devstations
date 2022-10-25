@@ -4,10 +4,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='px-20 py-5'>
+    <div className='md:px-20 md:py-5 px-5 py-2'>
         <div>
             <div>
-                <h1> <span>DEV</span> STATION</h1>
+                <h1> <span className='text-yellow-500'>DEV</span> STATION</h1>
                 <p>
                     DevStation is an Open Source Community that helps tech enthusiasts to grow their self in tech  
                 </p>
@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <div></div>
         </div>
-        <div className='flex md:flex-row flex-col  flex-1 justify-between '>
+        <div className='flex md:flex-row flex-col justify-between '>
             <div>
                 Made with ❤️ by DevStation
             </div>

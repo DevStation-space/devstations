@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Events from "../components/Events";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Particle from "../components/Particle";
 import Welcome from "../components/Welcome";
 import styles from "../styles/Home.module.css";
@@ -12,11 +14,12 @@ export default function Home() {
         <title>Dev Station</title>
         <meta name="description" content="Dev Station " />
       </Head>
-      {/* <Header /> */}
+      <Header />
       <Particle/>
       <Welcome/>
       <Events/>
-      {/* <Footer /> */}
+      <Footer/>
+      
     </div>
   );
 }
