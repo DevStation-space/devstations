@@ -1,8 +1,11 @@
 import React from 'react'
+import Particle from '../components/Particle'
 
 const Club = () => {
   return (
-    <div>Club</div>
+    <div>
+      <Particle />
+      Club</div>
   )
 }
 

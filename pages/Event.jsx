@@ -1,8 +1,12 @@
 import React from 'react'
+import Particle from '../components/Particle'
 
 const Event = () => {
   return (
-    <div>Event</div>
+    <div>
+      <Particle/>
+      Event
+    </div>
   )
 }
 

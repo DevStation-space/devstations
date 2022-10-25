@@ -12,6 +12,8 @@ const Welcome = () => {
     <div className={styles.bgImage}></div>
     <div className='flex flex-row flex-1 w-[100vw] px-20 py-10'>
       <div className='w-[50vw] '>
+      <h1 className='md:text-5xl  text-xl text-center items-center'> <span className='text-yellow-500'>DEV</span>STATION </h1>
+
         <p className='text-2xl text-center items-center align-center justify-center'>
           Dev Station is an open source community that aims to provide a platform for developers to learn, share and grow together.
         </p>

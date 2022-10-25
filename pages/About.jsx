@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-
+import Particle from '../components/Particle'
 const About = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const About = () => {
           title='DevStation | About us'
         />
       </Head>
+      <Particle />
       <h1>about</h1>
     </div>
   )
