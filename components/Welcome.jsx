@@ -17,7 +17,7 @@ const Welcome = () => {
 
           </p>
           <button className='px-10 py-5 bg-slate-500 rounded-2xl md:text-2xl text-xs'>
-           <h1><span> <BsArrowRight /> Join Us</span></h1> Join Us
+           <h1 className='flex flex-row item-center text-center'><span>  Join Us </span> <BsArrowRight /></h1> 
           </button>
         </div>
         <div className='  '>
