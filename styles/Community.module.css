@@ -1,68 +1,57 @@
 .background{
-    background-size: cover;
+    align-items: center;
     height:1800px;
 }
 
 .backImg{
-    position: absolute;
     width: 400px;
-    height: 400px;
-    left: 500px;
-    top: 100px;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content: center;
 }
 
 .para1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.para1 p{
     color:white;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
+    width:60%;
+    align-items: center;
 }
 
 .para2{
-    width: 912px;
-    height: 174px;
-    left:365px;
-    position:absolute;
-    top:500px;
+    width: 100%;
     line-height: 87px;
-}
-
-.what__we__offer{
-    color:white;
-    position:absolute;
-    left:3%;
-    right:3.12%;
-    top:900px;
-    bottom:39.04%;
-    border-radius:70px;
-    background-color: brown;
-    border-radius:70px;
-}
-
-.what__we__offer h1{
-    position:absolute;
-    width:475px;
-    height:390px;
-    left:250px;
-    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+
 
 .icons{
     display: flex;
-    flex-direction: column;
-    width:150px;
+    width:60%;
     margin-top:50px;
+    gap:200px;
 }
 
 .icon1{
     background-color:green;
     color:white;
     height:40px;
-    width:155px;
-    top:270px;
-    left:100px;
+    width:30%;
     display:flex;
     justify-content: center;
     font-size: 20px;
@@ -79,36 +68,18 @@
     background-color:blue;
     color:white;
     height:40px;
-    width:150px;
-    right:300px;
+    width:30%;
     display:flex;
     align-items: center;
     font-size: 20px;
     justify-content: center;
-    position:absolute;
     border-radius: 10px;
 }
 
 .icon2:hover{
     cursor:pointer;
 }
-.teams{
-    position: absolute;
-    width: 200px;
-    height: 46px;
-    left: 687px;
-    top: 1200px;
-    color:white;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 46px;
-}
 
-.teams h1{
-    width:50px;
-}
 
 @media only screen and (max-width: 300px) {
     .background {
@@ -117,15 +88,7 @@
   }
 
   @media only screen and (max-width: 700px) {
-    .background {
-      height:1000px;
-    }
-    .backImg{
-        height:300px;
-        width:300px;
-        position:absolute;
-        top:200px;
-      }
+
       .para1{
         color:white;
         font-family: 'Jost';
@@ -134,4 +97,98 @@
         font-size: 50px;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    .icons{
+        display: flex;
+        width:60%;
+        margin-top:50px;
+        gap:200px;
+    }
+
+    .icon1{
+        height:40px;
+        width:30%;
+        display:flex;
+        justify-content: center;
+        font-size: 10px;
+        align-items: center;
+        border-radius: 10px;
+  }
+  .icon2{
+    height:40px;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .icons{
+        display: flex;
+        width:60%;
+        margin-top:50px;
+        gap:200px;
+    }
+
+    .icon1{
+        height:20px;
+        width:25%;
+        display:flex;
+        justify-content: center;
+        font-size: 10px;
+        align-items: center;
+        border-radius: 10px;
+  }
+  .icon2{
+    height:20px;
+    width:25%;
+    display:flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .icons{
+        display: flex;
+        width:60%;
+        margin-top:50px;
+        gap:200px;
+    }
+  .icon2{
+    height:20px;
+    width:25%;
+    display:flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .icons{
+        display: flex;
+        width:30%;
+        margin-top:50px;
+        gap:200px;
+    }
+
+    .icon1{
+        height:20px;
+        width:25%;
+        display:flex;
+        justify-content: center;
+        font-size: 7px;
+        align-items: center;
+        border-radius: 5px;
+  }
+}
+
 

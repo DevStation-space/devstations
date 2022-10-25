@@ -1,5 +1,7 @@
 .wrapper {
     padding: 20px;
+    position:relative;
+    bottom:0;
     
 }
 
@@ -13,6 +15,7 @@
     align-items: center;
     padding: 10px 30px;
     margin: 10px 30px;
+    overflow: hidden;
    
 }
 
