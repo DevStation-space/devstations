@@ -81,8 +81,8 @@ const Particle = () => {
           outModes: {
             default: "bounce",
           },
-          random: false,
-          speed: 0.8,
+          random: true,
+          speed: 0.5,
           straight: false,
         },
         number: {
@@ -96,7 +96,7 @@ const Particle = () => {
           value: 0.5,
         },
         shape: {
-          type: ["star", "circle", "polygon"],
+          type: ["star", "circle", "polygon","square"],
         },
         size: {
           value: { min: 1, max: 2 },

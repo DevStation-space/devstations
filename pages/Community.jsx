@@ -17,9 +17,10 @@ const Community = () => {
 
         <Particle />
         <div className={styles.container}>
-          <div className={styles.backImg}>
-            <Image src={Img1} alt="images" />
+          <div className={`${styles.backImg} ${styles.shadow}`}>
+            
           </div>
+          <Image src={Img1} alt="images" height={300} width={300} className='m-10 h-[200p]'  />
         </div>
         <div className={styles.para2}>
           <div className={styles.para1}>

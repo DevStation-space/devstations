@@ -6,19 +6,25 @@ import support from '../assets/images/background.png'
 import {BsArrowRight} from 'react-icons/bs'
 const Welcome = () => {
   return (
-    <div>
+    <>
       {/* <div className={styles.bgImage}></div> */}
       <div className='flex md:flex-row flex-col   md:px-20  px-5 md:py-10 py-3'>
-        <div className=' '>
-          <h1 className='md:text-4xl  text-xl md:text-start text-center items-center'> <span className='text-yellow-500'>DEV</span>STATION  COMMUNITY</h1>
+        <div className='md:w-3/2 w-full '>
+          <h1 className='md:text-4xl  text-xl  text-center items-center'> <span className='text-yellow-500'>DEV</span>STATION  COMMUNITY</h1>
 
-          <p className='md:text-2xl text-md text-justify py-10 items-center align-center justify-center'>
-            Dev Station is an open source community that aims to provide a platform for developers to learn, share and grow together.
+          <p className='md:text-2xl  text-md text-justify py-10 items-center align-center justify-center'>
+          DevStation is an Open Source Community that helps tech enthusiasts to grow their self in tech. It provides free resources for the developers as well as the beginners. We provide a platform for the developers to discuss their ideas and projects. We are also  providing Jobs & internships, hackathons,meet ups, Mentorship, Workshops from Industry Experts, Industrial visits,Open Source Projects & Much More!!!
 
           </p>
-          <button className='px-10 py-5 bg-slate-500 rounded-2xl md:text-2xl text-xs'>
-           <h1 className='flex flex-row item-center text-center'><span>  Join Us </span> <BsArrowRight /></h1> 
+          <div className='flex justify-center'>
+          <button className='px-3 py-2 bg-[#ffec04] justify-center rounded-full md:text-2xl text-md'>
+           <h1 className='flex flex-row items-center  justify-between text-[#212121] font-serif'>  
+           Join Us 
+           <span className=' item-center  justify-between text-center p-1'>
+            <BsArrowRight /> 
+           </span> </h1> 
           </button>
+          </div>
         </div>
         <div className='  '>
           <Image
@@ -37,7 +43,7 @@ const Welcome = () => {
       </div>
 
 
-    </div>
+    </>
   )
 }
 
