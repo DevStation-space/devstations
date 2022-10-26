@@ -1,18 +1,22 @@
-.teams{
-    color:white;
+
+.teams {
+    color: white;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500px;
     font-size: 32px;
-    line-height: 46px;
-    
-    
+    display: flex;
+    flex-direction: row;
 }
 
-.teams h1{
-    width:100%;
+
+    
+
+.teams h1 {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top:500px;
+    margin-top: 50px;
+    font-size: xx-large;
 }
