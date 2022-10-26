@@ -4,6 +4,7 @@ import styles from '../styles/Welcome.module.css'
 // import Particle from './Particle'
 import support from '../assets/images/background.png'
 import {BsArrowRight} from 'react-icons/bs'
+import Link from 'next/link'
 const Welcome = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Welcome = () => {
           DevStation is an Open Source Community that helps tech enthusiasts to grow their self in tech. It provides free resources for the developers as well as the beginners. We provide a platform for the developers to discuss their ideas and projects. We are also  providing Jobs & internships, hackathons,meet ups, Mentorship, Workshops from Industry Experts, Industrial visits,Open Source Projects & Much More!!!
 
           </p>
+          <Link href='https://discord.io/devstation'>
           <div className='flex justify-center'>
           <button className='px-3 py-2 bg-[#ffec04] justify-center rounded-full md:text-2xl text-md'>
            <h1 className='flex flex-row items-center  justify-between text-[#212121] font-serif'>  
@@ -24,7 +26,9 @@ const Welcome = () => {
             <BsArrowRight /> 
            </span> </h1> 
           </button>
-          </div>
+          </div> 
+          </Link>
+         
         </div>
         <div className='  '>
           <Image
