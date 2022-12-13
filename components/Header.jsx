@@ -46,7 +46,7 @@ const Header = () => {
                                     </li>
                                 </Link>
 
-                                <Link href='/About'>
+                                {/* <Link href='/About'>
                                     <li className={styles.listItem}>
                                         About
                                     </li>
@@ -54,7 +54,7 @@ const Header = () => {
 
                                 <li className={styles.listItem}>
                                     Login
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

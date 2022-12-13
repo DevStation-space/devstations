@@ -8,7 +8,7 @@ import Whatweoffer from '../components/Whatweoffer';
 import Teams from '../components/Teams';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-
+import Link from "next/link"
 const Community = () => {
   return (
     <>
@@ -27,10 +27,12 @@ const Community = () => {
             <p>Join Our Community Related Content</p>
           </div>
           <div className={styles.icons}>
+            <Link href='https://chat.whatsapp.com/H2F5iAyMcvp2kqScdiNn0i' traget='_blank' alt='whatsapp' >
             <div className={styles.icon1}>
               <FaWhatsapp />
               Join Whatsapp
             </div>
+            </Link>
             <div className={styles.icon2}>
               <FaDiscord />
               Join Discord
