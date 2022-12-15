@@ -1,0 +1,92 @@
+.heading{
+    padding-bottom:20px;
+}
+
+.heading h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+}
+
+.boxes1{
+    background-color: grey;
+    height:300px;
+    width:200px;
+    border-radius:10px;
+}
+
+.boxes2{
+    background-color: grey;
+    height:300px;
+    width:200px;
+    margin-left: 50px;
+    border-radius:10px;
+}
+
+.boxes3{
+    background-color: grey;
+    height:300px;
+    width:200px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.boxes4{
+    color:white;
+    margin-top: 50px;
+    height:30px;
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+    width:30%;
+    
+}
+
+.boxes4 h1{
+    background-color: rgb(4, 9, 91);
+    border-radius: 9px;
+    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .boxes4{
+        color:white;
+        margin-top: 10px;
+        height:30px;
+        display: flex;
+        margin-left: 20%;
+        justify-content: center;
+        width:60%;
+}
+.boxes4 h1{
+    background-color: rgb(4,9,91);
+    border-radius: 9px;
+    width: 50%;
+    text-align: center;
+}
+}
+
+@media (max-width: 450px){
+    .boxes4{
+        color:white;
+        margin-top: 10px;
+        height:30px;
+        display: flex;
+        margin-left: 15%;
+        justify-content: center;
+        width:70%;
+}
+.boxes4 h1{
+    background-color: rgb(4,9,90);
+    border-radius: 9px;
+    width: 50%;
+    text-align: center;
+}
+}

@@ -53,5 +53,6 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+        color:rgb(234,179,8);
     }
 }
