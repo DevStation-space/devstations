@@ -5,13 +5,14 @@ import styles from '../styles/Welcome.module.css'
 import support from '../assets/images/background.png'
 import { BsArrowRight } from 'react-icons/bs'
 import Link from 'next/link'
+import Events from './Events'
 const Welcome = () => {
   return (
     <>
       {/* <div className={styles.bgImage}></div> */}
       <div className='flex md:flex-row flex-col   md:px-20  px-5 md:py-10 py-3'>
         <div className='md:w-3/2 w-full '>
-          <h1 className='md:text-4xl  text-xl  text-center items-center'> <span className='text-yellow-500'>DEV</span>STATION  COMMUNITY</h1>
+          <h1 className='md:text-4xl  text-xl  text-center items-center'> <span className='text-yellow-500'>DEV</span><span className='text-yellow-500'>STATION  COMMUNITY</span></h1>
 
           <p className='md:text-2xl  text-md text-justify py-10 items-center align-center justify-center'>
             DevStation is an Open Source Community that helps tech enthusiasts to grow their self in tech. It provides free resources for the developers as well as the beginners. We provide a platform for the developers to discuss their ideas and projects. We are also  providing Jobs & internships, hackathons,meet ups, Mentorship, Workshops from Industry Experts, Industrial visits,Open Source Projects & Much More!!!
@@ -47,7 +48,7 @@ const Welcome = () => {
           <p className={styles.gradPara}>COMMUNITIES /PARTNERS THAT WE ARE WORKING WITH !!</p>
         </div>
       </div>
-
+     
 
     </>
   )

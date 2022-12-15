@@ -1,0 +1,13 @@
+.reach{
+    padding:25px;
+}
+
+.reach h1{
+    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
