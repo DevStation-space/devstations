@@ -1,5 +1,6 @@
 .heading{
-    padding-bottom:20px;
+    padding-bottom:30px;
+    padding-top: 50px;
 }
 
 .heading h1{
@@ -15,7 +16,16 @@
 }
 
 .boxes1{
-    background-color: grey;
+    height:300px;
+    width:200px;
+    border-radius:10px;
+}
+
+.boxes1:hover{
+    transform: scale(1.1);
+}
+
+.Image{
     height:300px;
     width:200px;
     border-radius:10px;

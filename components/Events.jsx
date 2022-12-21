@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../styles/Events.module.css'
 import Reach from './Reach'
+import Image from 'next/image'
+import Hackathon from '../assets/images/hackathon.jpeg'
 
 const Events = () => {
   return (
@@ -9,14 +11,17 @@ const Events = () => {
       <h1>EVENTS</h1>
     </div>
     <div className={styles.box}>
-    <div className={styles.boxes1}></div>
-    <div className={styles.boxes2}></div>
-    <div className={styles.boxes3}></div>
+    <div className={styles.boxes1}>
+      <Image src={Hackathon} height= {1550} />
+    </div>
+    {/* <div className={styles.boxes2}></div>
+    <div className={styles.boxes3}></div> */}
     </div>
     <div className={styles.boxes4}>
       <h1>More to Come!!!</h1>
     </div>
     <Reach/>
+
     </>
   )
 }
