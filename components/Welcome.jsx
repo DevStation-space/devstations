@@ -10,11 +10,11 @@ const Welcome = () => {
   return (
     <>
       {/* <div className={styles.bgImage}></div> */}
-      <div className='flex md:flex-row flex-col   md:px-20  px-5 md:py-10 py-3'>
+      <div className='flex md:flex-row flex-col   md:px-20  px-5 md:py-20 py-3'>
         <div className='md:w-3/2 w-full '>
-          <h1 className='md:text-4xl  text-xl  text-center items-center'> <span className='text-yellow-500'>DEV</span><span className='text-yellow-500'>STATION  COMMUNITY</span></h1>
+          <h1 className='md:text-4xl  text-xl  text-left items-center'> <span className='text-yellow-500'>DEV</span><span className='text-yellow-500'>STATION  COMMUNITY</span></h1>
 
-          <p className='md:text-2xl  text-md text-justify py-10 items-center align-center justify-center'>
+          <p className='md:text-xl  text-md text-justify py-10 items-center align-center justify-center text-yellow-200 max-w-2xl'>
             DevStation is an Open Source Community that helps tech enthusiasts to grow their self in tech. It provides free resources for the developers as well as the beginners. We provide a platform for the developers to discuss their ideas and projects. We are also  providing Jobs & internships, hackathons,meet ups, Mentorship, Workshops from Industry Experts, Industrial visits,Open Source Projects & Much More!!!
 
           </p>
