@@ -12,7 +12,7 @@ const Events = () => {
     </div>
     <div className={styles.box}>
     <div className={styles.boxes1}>
-      <Image src={Hackathon} height= {1550} />
+      <Image src={Hackathon} height= {2000} width ={2000}/>
     </div>
     {/* <div className={styles.boxes2}></div>
     <div className={styles.boxes3}></div> */}
