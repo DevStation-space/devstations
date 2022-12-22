@@ -36,6 +36,7 @@
     align-items: center;
     text-align: center;
     color:#FFCBCB;
+    padding:7px;
 }
 
 .spanHeading {
@@ -76,6 +77,9 @@
     border-radius: 50%;
     color: #2B3545;
     font-size: 40px;
+}
+.icons :hover{
+    color:#FFD600;
 }
 
 .bio {
