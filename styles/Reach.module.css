@@ -1,5 +1,6 @@
 .reach{
-    padding:25px;
+    padding-top:50px;
+    
 }
 
 .reach h1{
@@ -8,11 +9,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
+    margin-bottom:0%;
 }
 
-/* .reaches{
+.reaches{
     flex-basis:235px;
     height:100px;
     flex-grow: 0.1;
@@ -20,7 +22,7 @@
     padding:0.4rem;
     border-radius: 15px;
     background: linear-gradient(#56a8d0);
-} */
+} 
 
 .Mentorstats {
     font-family: 'Poppins', sans-serif;
@@ -80,7 +82,7 @@ padding: 0.7rem ;
     .Mstat {
         margin-bottom: 1rem
     }
-}
+} 
 
 .Stats__head{
     background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
@@ -92,4 +94,14 @@ padding: 0.7rem ;
     font-weight:600;
     margin:0.8rem 0;
     padding-bottom:30px;
-} 
+}  
+
+.tree{
+    display:flex;
+    justify-content: center;
+    height:700px;
+    width:100%;
+    padding: 0%;
+    margin-top: -100px; 
+}
+

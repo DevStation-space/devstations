@@ -3,6 +3,7 @@ import styles from '../styles/Reach.module.css'
 import Image from 'next/image'
 import community from '../assets/images/reach1.png'
 import college from '../assets/images/reach5.png'
+import back from '../assets/images/Projects.png'
 
 const Reach = () => {
   return (
@@ -33,9 +34,9 @@ const Reach = () => {
           <div className={styles.MSdata}>2k+</div>
           <div className={styles.MSmetadata}>College Members</div>
           </div>
-        </div>
-        {/* <div className={`${styles.m__stat__block} ${styles.Mstat}`}> */}
-        {/* <Image src={Reach4} alt=""/>
+        </div> 
+        {/* <div className={`${styles.m__stat__block} ${styles.Mstat}`}> 
+        <Image src={Reach4} alt=""/>
         <div>
           <div className={styles.MSdata}>10+</div>
           <div className={styles.MSmetadata}>Companies and Partners</div>
