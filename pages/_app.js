@@ -11,10 +11,8 @@ function MyApp({ Component, pageProps }) {
         <title>Dev Station</title>
 
       </Head>
-     {/* <Header/> */}
-     {/* <Particle/> */}
+     
       <Component {...pageProps} />
-      {/* <Footer/> */}
     </div>
   );
 }

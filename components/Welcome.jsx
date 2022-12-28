@@ -2,12 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/Welcome.module.css'
 // import Particle from './Particle'
-import support from '../assets/images/background.png'
-import Partner1 from '../assets/images/partner1.jpeg'
-import Partner2 from '../assets/images/partner2.jpeg'
+import Support from '../assets/images/background.png'
+import Bubble from '../assets/images/bubble.png'
+import SOS from '../assets/images/sos.png'
 import { BsArrowRight } from 'react-icons/bs'
 import Link from 'next/link'
-import Events from './Events'
+// import Events from './Events'
 const Welcome = () => {
   return (
     <>
@@ -22,13 +22,13 @@ const Welcome = () => {
 
           {/* <div className='flex justify-center'> */}
             <button className='px-3 py-2 bg-[#ffec04] hover:bg-pink-500 hover:cursor-pointer justify-center rounded-full md:text-2xl text-md'>
-              <a href='https://discord.io/devstation' target='_blank' rel='noreferrer noopener'>
+              <Link href='https://discord.io/devstation' target='_blank' rel='noreferrer noopener'>
                 <h1 className='flex flex-row items-center  justify-between text-[#212121] font-serif'>
                   Join Us
                   <span className=' item-center  justify-between text-center p-1'>
                     <BsArrowRight />
                   </span> </h1>
-              </a>
+              </Link>
             </button>
           {/* </div> */}
           {/* </Link> */}
@@ -36,7 +36,7 @@ const Welcome = () => {
         </div>
         <div className='  '>
           <Image
-            src={support}
+            src={Support}
             alt="support"
             width={600}
             height={600}
@@ -55,7 +55,7 @@ const Welcome = () => {
             <div className={styles.Stats_holder}>
                 <div className={styles.stats_block}>
                     <div className={styles.stats_data}>
-                   <Image src={Partner1} alt="" />
+                   <Image src={Bubble} alt="" />
                     </div>
                     {/* <div className={styles.stats_datatype}>
                         Amazon
@@ -63,7 +63,7 @@ const Welcome = () => {
                 </div>
                 <div className={styles.stats_block}>
                     <div className={styles.stats_data}>
-                    <Image src={Partner2} alt="" />
+                    <Image src={SOS} alt="" />
                     </div>
                     {/* <div className={styles.stats_datatype}>
                         Paytm
