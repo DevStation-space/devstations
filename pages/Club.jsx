@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Particle from '../components/Particle'
 
-const Club = () => {
+const club = () => {
   return (
     <>
       <Header />
@@ -16,4 +16,4 @@ const Club = () => {
   )
 }
 
-export default Club
+export default club
