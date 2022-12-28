@@ -5,16 +5,7 @@ import Particle from "../components/Particle";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <div>
-      <Head>
-        <title>Dev Station</title>
-
-      </Head>
-     
-      <Component {...pageProps} />
-    </div>
-  );
+  return <Component {...pageProps} /> ;
 }
 
 export default MyApp;
