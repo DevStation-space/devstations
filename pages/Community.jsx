@@ -10,7 +10,7 @@ import Teams from '../components/Teams';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Community = () => {
+const community = () => {
   return (
     
     <>
@@ -57,4 +57,4 @@ const Community = () => {
   )
 }
 
-export default Community
+export default community

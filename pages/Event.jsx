@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Particle from '../components/Particle'
 
-const Event = () => {
+const event = () => {
   return (
     <>
       <Header/>
@@ -16,4 +16,4 @@ const Event = () => {
   )
 }
 
-export default Event
+export default event
