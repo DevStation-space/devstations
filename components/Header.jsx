@@ -32,15 +32,15 @@ const Header = () => {
                   <li className={styles.listItem}>Community</li>
                 </Link>
 
-                <Link href="/club">
+                <Link href="/Club">
                   <li className={styles.listItem}>Club</li>
                 </Link>
 
-                <Link href="/event">
+                <Link href="/Event">
                   <li className={styles.listItem}>Events</li>
                 </Link>
 
-                <Link href="/about">
+                <Link href="/About">
                   <li className={styles.listItem}>About</li>
                 </Link>
                 <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
