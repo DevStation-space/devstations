@@ -14,11 +14,14 @@ export default function Home() {
         <title>Dev Station</title>
         <meta name="description" content="Dev Station " />
       </Head>
-      <Header />
-      <Welcome/>
-      <Events/>
-      <Footer/>
-      <Particle/>
+      <body>
+        <Header />
+      <Welcome />
+      <Events />
+      <Footer />
+      <Particle />
+
+      </body>
       
     </div>
   );
