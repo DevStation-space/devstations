@@ -11,7 +11,6 @@ import Events from './Events'
 const Welcome = () => {
   return (
     <>
-      {/* <div className={styles.bgImage}></div> */}
       <div className='flex md:flex-row flex-col   md:px-20  px-5 md:py-20 py-3'>
         <div className='md:w-3/2 w-full '>
           <h1 className='md:text-4xl  text-xl  text-left items-center'> <span className='text-yellow-500'>DEV</span><span className='text-yellow-500'>STATION  COMMUNITY</span></h1>
@@ -22,15 +21,15 @@ const Welcome = () => {
           </p>
 
           {/* <div className='flex justify-center'> */}
-            <a href='https://discord.io/devstation' target='_blank' rel='noreferrer noopener'>
-              {/* <button className='px-3 py-2 bg-[#ffec04] hover:bg-pink-500 hover:cursor-pointer justify-center rounded-full md:text-2xl text-md'> */}
+            <button className='px-3 py-2 bg-[#ffec04] hover:bg-pink-500 hover:cursor-pointer justify-center rounded-full md:text-2xl text-md'>
+              <a href='https://discord.io/devstation' target='_blank' rel='noreferrer noopener'>
                 <h1 className='flex flex-row items-center  justify-between text-[#212121] font-serif'>
                   Join Us
                   <span className=' item-center  justify-between text-center p-1'>
                     <BsArrowRight />
                   </span> </h1>
-              {/* </button> */}
-            </a>
+              </a>
+            </button>
           {/* </div> */}
           {/* </Link> */}
 

@@ -1,89 +1,6 @@
 .reach{
-    padding-top:50px;
-    
+    background-color: rgb(14 15 15);
 }
-
-.reach h1{
-    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom:0%;
-}
-
-.reaches{
-    flex-basis:235px;
-    height:100px;
-    flex-grow: 0.1;
-    margin:2vh 2vw;
-    padding:0.4rem;
-    border-radius: 15px;
-    background: linear-gradient(#56a8d0);
-} 
-
-.Mentorstats {
-    font-family: 'Poppins', sans-serif;
-    padding: 2rem 0; 
-}
-
-.Mstat {
-    background-color: aliceblue;
-    
-    height: 130px;
-    padding: 0.4rem;
-    line-height: 24px;
-}
-
-.m__stat__block{
-text-align: center;
-flex-basis: 250px;
-flex-grow: 0.05;
-border-radius: 20px;
-display:flex;
-align-items: center;
-justify-content: center;
-padding: 0.7rem ;
-}
-
-.Mstat Image{
-    width: 70px;
-    height: 70;
-    margin: 0.4rem;
-    display:flex;
-    border-radius: 20px;
-}
-
-.MSdata {
-    font-size: 2.5rem;
-    font-weight: 450;
-    margin-bottom: 10px;
-    border-bottom: solid 0.8px rgba(3, 44, 64, 0.8);
-}
-
-.MSmetadata {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.Stats__holder{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:flex-start;
-    justify-content:space-around;
-    margin:0.8rem;
-    grid-gap:1.3rem;
-    /* gap:1.3rem; */
-}
-
-@media only screen and (max-width: 790px) {
-    .Mstat {
-        margin-bottom: 1rem
-    }
-} 
-
 .Stats__head{
     background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
     -webkit-background-clip: text;
@@ -93,15 +10,48 @@ padding: 0.7rem ;
     font-size: 3rem;
     font-weight:600;
     margin:0.8rem 0;
+    padding-top:30px;
     padding-bottom:30px;
 }  
-
-.tree{
-    display:flex;
-    justify-content: center;
-    height:700px;
-    width:100%;
-    padding: 0%;
-    margin-top: -100px; 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
 }
-
+.card{
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(222,227,234,0),rgb(222,227,234,.1));
+    border: 1px solid #639;
+    border: 1px solid rgb(222,227,234,.2);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    padding-block: 2rem;
+    text-align: center;
+    width:250px;
+}
+.cardIcon{
+    align-items: center;
+    background-color: rgb(233, 225, 66);
+    border: 2px solid rgb(175, 233, 66);
+    border-radius: 50%;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.number{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.title{
+    border-radius: 1rem;
+    font-size: 1.1rem;
+}

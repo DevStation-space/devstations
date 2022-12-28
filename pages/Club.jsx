@@ -6,12 +6,12 @@ import Particle from '../components/Particle'
 const Club = () => {
   return (
     <>
-      <Particle />
       <Header />
       <div>
         Club
       </div>
       <Footer />
+      <Particle />
     </>
   )
 }

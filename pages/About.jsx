@@ -16,9 +16,9 @@ const About = () => {
         />
       </Head>
       <Header />
-      <Particle />
       <h1>about</h1>
       <Footer />
+      <Particle />
     </div>
   )
 }

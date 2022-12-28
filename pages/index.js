@@ -15,10 +15,10 @@ export default function Home() {
         <meta name="description" content="Dev Station " />
       </Head>
       <Header />
-      <Particle/>
       <Welcome/>
       <Events/>
       <Footer/>
+      <Particle/>
       
     </div>
   );

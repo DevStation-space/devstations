@@ -23,7 +23,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+
 }
 
 @media (max-width: 768px) {
@@ -105,12 +105,19 @@
 }
 
 .Stats_holder{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-around;
     margin: 0.8rem;
-    gap: 1.3rem;
+    gap: 1.3rem; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0.8rem; */
+    /* gap: 1.3rem; */
+    flex-direction: row;
 }
 
 .stats_block{
