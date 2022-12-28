@@ -6,12 +6,12 @@ import Particle from '../components/Particle'
 const Event = () => {
   return (
     <>
-      <Particle/>
       <Header/>
       <div>
         Event
       </div>
       <Footer />
+      <Particle/>
     </>
   )
 }

@@ -28,31 +28,31 @@ const Header = () => {
                     <div className="text-white md:flex hidden   items-center ">
                         <div className="flex flex-row  items-center">
                             <ul className='flex  '>
-                                <Link href='/Community'>
+                                <Link href='/community'>
                                     <li className={styles.listItem}>
                                         Community
                                     </li>
                                 </Link>
 
-                                <Link href='/Club'>
+                                <Link href='/club'>
                                     <li className={styles.listItem}>
                                         Club
                                     </li>
                                 </Link>
 
-                                <Link href='/Event'>
+                                <Link href='/event'>
                                     <li className={styles.listItem}>
                                         Events
                                     </li>
                                 </Link>
 
-                                {/* <Link href='/About'>
+                                <Link href='/about'>
                                     <li className={styles.listItem}>
                                         About
                                     </li>
                                 </Link>
 
-                                <li className={styles.listItem}>
+                                {/* <li className={styles.listItem}>
                                     Login
                                 </li> */}
                             </ul>
@@ -82,33 +82,33 @@ const Header = () => {
                                 </li>
                                 <div className='items-center'>
                                     <ul className='flex flex-col text-xl'>
-                                        <Link href='/Community'>
+                                        <Link href='/community'>
                                             <li className={styles.listItem}>
                                                 Community
                                             </li>
                                         </Link>
 
-                                        <Link href='/Club'>
+                                        <Link href='/club'>
                                             <li className={styles.listItem}>
                                                 Club
                                             </li>
                                         </Link>
 
-                                        <Link href='/Event'>
+                                        <Link href='/event'>
                                             <li className={styles.listItem}>
                                                 Events
                                             </li>
                                         </Link>
 
-                                        <Link href='/About'>
+                                        <Link href='/about'>
                                             <li className={styles.listItem}>
                                                 About
                                             </li>
                                         </Link>
 
-                                        <li className={styles.listItem}>
+                                        {/* <li className={styles.listItem}>
                                             Login
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </ul>

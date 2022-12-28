@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Whatweoffer from '../components/Whatweoffer';
 import Teams from '../components/Teams';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Community = () => {
   return (
@@ -16,7 +17,6 @@ const Community = () => {
       <Header />
       <div className={styles.background}>
 
-        <Particle />
         <div className={styles.container}>
           <div className={styles.backImg}>
           <Image src={Img1} alt="images" height={300} width={300} className='m-10 h-[200p]'  />
@@ -30,19 +30,25 @@ const Community = () => {
           <div className={styles.icons}>
             <Link href='https://chat.whatsapp.com/H2F5iAyMcvp2kqScdiNn0i' traget='_blank' alt='whatsapp' >
             <div className={styles.icon1}>
-              <FaWhatsapp />
+              <FaWhatsapp/>
               Join Whatsapp
             </div>
             </Link>
+            <Link href='https://discord.io/devstation' traget='_blank' alt='dicord' >
             <div className={styles.icon2}>
               <FaDiscord />
               Join Discord
             </div>
+            </Link>
+           
           </div>
         </div>
 
         <Whatweoffer />
         <Teams />
+        <Footer/>
+        <Particle />
+
 
       
     </div>
