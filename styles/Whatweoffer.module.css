@@ -1,4 +1,4 @@
-.what__we__offer{
+.what__we__offer {
     width: 90%;
     height: auto;
     margin: auto;
@@ -10,16 +10,18 @@
     position: relative;
     margin-top: 50px;
 }
-.offer{
+
+.offer {
     color: white;
     position: absolute;
-    width:25%;
-    height:25%;
-    left:15%;
+    width: 25%;
+    height: 25%;
+    left: 15%;
     text-align: center;
     top: 25%;
-  }
-.container{
+}
+
+.container {
     width: 50%;
     height: auto;
     display: flex;
@@ -27,21 +29,22 @@
     justify-content: right;
     border-radius: 20px;
 }
-.flex{
+
+.flex {
     width: 90%;
     height: 90px;
     color: white;
     border-radius: 30px;
     margin: 20px;
     justify-content: center;
-    background: linear-gradient(to right, rgb(214, 70, 70),rgb(138, 19, 19),rgb(20, 19, 19))
+    background: linear-gradient(to right, rgb(214, 70, 70), rgb(138, 19, 19), rgb(20, 19, 19))
 }
 
-.offer span{
-    font-size:34px;
+.offer span {
+    font-size: 34px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }

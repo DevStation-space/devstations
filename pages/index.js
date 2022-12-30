@@ -4,6 +4,7 @@ import Events from "../components/Events";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Particle from "../components/Particle";
+import Reach from "../components/Reach";
 import Welcome from "../components/Welcome";
 import styles from "../styles/Home.module.css";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <Welcome />
       <Events  />
+      <Reach />
       <Footer />
       <Particle />
 
