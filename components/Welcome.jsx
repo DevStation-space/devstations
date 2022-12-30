@@ -14,15 +14,15 @@ const Welcome = () => {
           <h1 className="md:text-4xl  text-xl  text-left items-center">
             {" "}
             <span className="text-yellow-500">DEV</span>
-            <span className="text-yellow-500">STATION COMMUNITY</span>
+            <span className="">STATION COMMUNITY</span>
           </h1>
 
-          <p className="md:text-xl  text-md text-justify py-10 items-center align-center justify-center text-yellow-200 max-w-2xl">
+          <p className="md:text-xl  text-md text-justify py-10 items-center align-center justify-center  max-w-2xl">
             DevStation is an Open Source Community that helps tech enthusiasts
             to grow their self in tech. It provides free resources for the
             developers as well as the beginners. We provide a platform for the
             developers to discuss their ideas and projects. We are also
-            providing Jobs & internships, hackathons,meet ups, Mentorship,
+            providing Jobs & internships, hackathons ,meet ups, Mentorship,
             Workshops from Industry Experts, Industrial visits,Open Source
             Projects & Much More!!!
           </p>
