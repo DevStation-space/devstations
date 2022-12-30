@@ -45,11 +45,7 @@ const Header = () => {
                 </Link>
                 <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
                         <li className='hover:text-black hover:bg-white cursor-pointer px-2 py-1'>Innoverse Registration</li>
-                    </Link>
-
-                {/* <li className={styles.listItem}>
-                                    Login
-                                </li> */}
+                </Link>
               </ul>
             </div>
           </div>
@@ -77,27 +73,25 @@ const Header = () => {
                 </li>
                 <div className="items-center">
                   <ul className="flex flex-col text-xl">
-                    <Link href="/community">
+                    <Link href="/Community">
                       <li className={styles.listItem}>Community</li>
                     </Link>
 
-                    <Link href="/club">
+                    <Link href="/Club">
                       <li className={styles.listItem}>Club</li>
                     </Link>
 
-                    <Link href="/event">
+                    <Link href="/Event">
                       <li className={styles.listItem}>Events</li>
                     </Link>
 
-                    <Link href="/about">
+                    <Link href="/About">
                       <li className={styles.listItem}>About</li>
                     </Link>
                     <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
                         <li>Innoverse Registration</li>
                     </Link>
-                    {/* <li className={styles.listItem}>
-                                            Login
-                                        </li> */}
+
                   </ul>
                 </div>
               </ul>

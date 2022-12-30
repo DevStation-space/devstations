@@ -1,13 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import styles from "../styles/Welcome.module.css";
-// import Particle from './Particle'
 import Support from "../assets/images/background.png";
 import Bubble from "../assets/images/bubble.png";
 import SOS from "../assets/images/sos.png";
 import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
-// import Events from './Events'
 const Welcome = () => {
   return (
     <>
@@ -40,7 +38,7 @@ const Welcome = () => {
                 Join Us
                 <span className=" item-center  justify-between text-center p-1">
                   <BsArrowRight />
-                </span>{" "}
+                </span>
               </h1>
             </Link>
           </button>

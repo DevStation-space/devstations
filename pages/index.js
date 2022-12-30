@@ -7,6 +7,7 @@ import Particle from "../components/Particle";
 import Reach from "../components/Reach";
 import Welcome from "../components/Welcome";
 import styles from "../styles/Home.module.css";
+import Reach from "../components/Reach";
 
 
 export default function Home() {
@@ -24,9 +25,6 @@ export default function Home() {
       <Reach />
       <Footer />
       <Particle />
-
-
-
     </div>
   );
 }
