@@ -6,7 +6,7 @@ const Footer = () => (
     <div className={`${styles.layout} ${styles.flayout}`}>
       <div className={styles.linkGroup}>
         <div>
-          <p className={styles.linkHead}>Organization</p>
+          <h1 className={styles.linkHead}>Organization</h1>
           <ul>
             <li>
               <Link href="/about">About</Link>
@@ -20,7 +20,7 @@ const Footer = () => (
           </ul>
         </div>
         <div>
-          <p className={styles.linkHead}>Community</p>
+          <h1 className={styles.linkHead}>Community</h1>
           <ul>
             <li>
               <Link
@@ -40,7 +40,7 @@ const Footer = () => (
           </ul>
         </div>
         <div>
-          <p className={styles.linkHead}>Socials</p>
+          <h1 className={styles.linkHead}>Socials</h1>
           <ul>
             <li>
               <Link
@@ -55,7 +55,7 @@ const Footer = () => (
               <Link
                 href="https://www.linkedin.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer "
               >
                 Linkedin
               </Link>
@@ -72,7 +72,7 @@ const Footer = () => (
           </ul>
         </div>
         <div>
-          <p className={styles.linkHead}>Contact</p>
+          <h1 className={styles.linkHead}>Contact</h1>
           <ul>
             <li>
               <Link

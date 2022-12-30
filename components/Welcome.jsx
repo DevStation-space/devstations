@@ -29,7 +29,7 @@ const Welcome = () => {
             Projects & Much More!!!
           </p>
 
-          {/* <div className='flex justify-center'> */}
+
           <button className="px-3 py-2 bg-[#ffec04] hover:bg-pink-500 hover:cursor-pointer justify-center rounded-full md:text-2xl text-md">
             <Link
               href="https://discord.io/devstation"
@@ -44,8 +44,6 @@ const Welcome = () => {
               </h1>
             </Link>
           </button>
-          {/* </div> */}
-          {/* </Link> */}
         </div>
         <div className="  ">
           <Image
@@ -59,9 +57,6 @@ const Welcome = () => {
       </div>
 
       <div>
-        {/* <div className='md:px-20  px-5 bg-[#0E0C0C] rounded-2xl'>
-          <p className={styles.gradPara}>COMMUNITIES /PARTNERS THAT WE ARE WORKING WITH !!</p>
-        </div> */}
         <div className={styles.Stats}>
           <div className={styles.Stats_head}>
             COMMUNITIES /PARTNERS THAT WE ARE WORKING WITH !!
@@ -71,74 +66,12 @@ const Welcome = () => {
               <div className={styles.stats_data}>
                 <Image src={Bubble} alt="" />
               </div>
-              {/* <div className={styles.stats_datatype}>
-                        Amazon
-                    </div> */}
             </div>
             <div className={styles.stats_block}>
               <div className={styles.stats_data}>
                 <Image src={SOS} alt="" />
               </div>
-              {/* <div className={styles.stats_datatype}>
-                        Paytm
-                    </div> */}
             </div>
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://cdn.worldvectorlogo.com/logos/tata-consultancy-services.svg" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                       TCS
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://financialit.net/sites/default/files/hitachi_vantara_0.jpg" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                      Hitachi Vantara
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://www.cognizant.com/content/dam/cognizant_foundation/Dotcomimage/CognizantLogo400.jpg" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                      Cognizant
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1415386231/utypaslbyxwfuwhfdzxd.png" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                     Infosys
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://brc.org.uk/media/675924/deloitte.png" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                     Deloitte
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://i.gadgets360cdn.com/large/Teos_website_small_1650287397786.jpg" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                     Tezos India
-                    </div>
-                </div> */}
-            {/* <div className={styles.stats_block}>
-                    <div className={styles.stats_data}>
-                    <img src="https://imageio.forbes.com/specials-images/imageserve/5c13d2f64bbe6f0f2aa26233/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds" alt="" />
-                    </div>
-                    <div className={styles.stats_datatype}>
-                     Cisco
-                    </div> 
-                 </div> */}
           </div>
         </div>
       </div>
