@@ -26,7 +26,7 @@
                 "social": {
                     "twitter": "https://twitter.com/yoongles_paw",
                     "instagram": "https://www.instagram.com/deletedomo",
-                    "linkedin": "https://www.Iinkedin.com/in/vaishnavi-sharma-156412249",
+                    "linkedin": "https://www.linkedin.com/in/vaishnavi-sharma-156412249",
                     "github": "https://github.com/ssjhyyk"
                 }
                 
@@ -54,7 +54,7 @@
                 "image": "/img/team/himanshu.png",
                 "email": "himanshu2020cs135@gmail.com",
                 "social": {
-                    "twitter": "https://twitter.com/#",
+                    "twitter": "https://twitter.com/Himansh44602292",
                     "instagram": "https://www.instagram.com/hi.manshu.10",
                     "linkedin": "https://www.linkedin.com/in/himanshu-verma-a1031b214",
                     "github": "https://github.com/Himanshu-Verma-IO"
@@ -112,31 +112,43 @@
                 "role": "Venture Manager",
                 "bio": "  ",
                 "image": "/img/team/anuradha.png",
-                "email": "kanishakchaurasia2@gmail.com",
+                "email": "anuradhasaxena456@gmail.com",
                 "social": {
-                    "twitter": "https://twitter.com/kanishkchauras4",
-                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
-                    "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
-                    "github": "https://www.github.com/kanishak11-cyber"
+                    "twitter": "https://twitter.com/",
+                    "instagram": "https://www.instagram.com/anuradhasaxena456",
+                    "linkedin": "https://www.linkedin.com/in/anuradha-saxena-b26455213",
+                    "github": "https://www.github.com/"
                 }
                 
             },
             {
                 "id":"9",
-                "name": "Kanishak Chaurasia",
-                "role": "Founder",
-                "bio": "I'm founder of DEV STATION and pre-final year student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener.  ",
-                "image": "/img/team/kanishak.png",
-                "email": "kanishakchaurasia2@gmail.com",
+                "name": "Satyam  Srivastava",
+                "role": "Web Developer",
+                "bio": " ",
+                "image": "/img/team/satyam.png",
+                "email": "srivastava6808@gmail.com",
                 "social": {
-                    "twitter": "https://twitter.com/kanishkchauras4",
-                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
-                    "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
-                    "github": "https://www.github.com/kanishak11-cyber"
+                    "twitter": "https://twitter.com/",
+                    "instagram": "https://www.instagram.com/",
+                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b//",
+                    "github": "https://www.github.com/SrivastavaSatyam"
                 }
-                
-                
-            }
+            },
+            {
+                "id":"10",
+                "name": "Satyam  Srivastava",
+                "role": "Web Developer",
+                "bio": " ",
+                "image": "/img/team/satyam.png",
+                "email": "srivastava6808@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/",
+                    "instagram": "https://www.instagram.com/",
+                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b//",
+                    "github": "https://www.github.com/SrivastavaSatyam"
+                }
+            }            
         ]
     }
 }

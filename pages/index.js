@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Header />
       <Welcome />
-      <Events  />
+      {/* <Events  /> */}
       <Reach />
       <Team />
       <Footer />

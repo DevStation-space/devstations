@@ -32,9 +32,9 @@ const Header = () => {
                   <li className={styles.listItem}>Community</li>
                 </Link>
 
-                <Link href="/club">
+                {/* <Link href="/club">
                   <li className={styles.listItem}>Club</li>
-                </Link>
+                </Link> */}
 
                 <Link href="/event">
                   <li className={styles.listItem}>Events</li>
