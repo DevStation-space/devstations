@@ -1,0 +1,26 @@
+{
+    "members": [
+      {
+        "name": "John Doe",
+        "designation": "Founder and CEO",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "github": "https://github.com/johndoe",
+        "email": "johndoe@example.com",
+        "twitter": "https://twitter.com/johndoe",
+        "description": "John is a seasoned entrepreneur with over 10 years of experience in the tech industry. He is passionate about building innovative products and helping others succeed in their careers.",
+        "image": ""
+      },
+      {
+        "name": "Jane Smith",
+        "designation": "Director of Marketing",
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "github": "https://github.com/janesmith",
+        "email": "janesmith@example.com",
+        "twitter": "https://twitter.com/janesmith",
+        "description": "Jane is an experienced marketing professional with a strong background in content marketing and social media. She is passionate about helping businesses grow through effective marketing strategies."
+      }
+    ]
+}
+      
+
+  

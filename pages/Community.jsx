@@ -6,7 +6,7 @@ import Img1 from "../assets/images/Frame 3.png";
 import Particle from "../components/Particle";
 import Link from "next/link";
 import Whatweoffer from "../components/Whatweoffer";
-import Teams from "../components/Teams";
+import Teams from "../components/Team";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

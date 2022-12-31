@@ -73,9 +73,9 @@ const about = () => {
           <Link
             href="https://discord.io/devstation"
             target="_blank"
-            rel="noreferrer noopner"
+            // rel="noreferrer noopner"
           >
-            <a className={styles.joinButton}>Join Now</a>
+            <h1 className={styles.joinButton}>Join Now</h1>
           </Link>
         </div>
       </div>

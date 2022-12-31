@@ -1,20 +1,16 @@
-
-.teams {
-    color: white;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 500px;
-    font-size: 32px;
-    display: flex;
-    flex-direction: row;
+.team{
+    background-color: rgb(14, 15, 15);
 }
-  
 
-.teams h1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-    font-size: xx-large;
-}
+.Stats__head{
+    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align:center;
+    font-size: 3rem;
+    font-weight:600;
+    margin:0.8rem 0;
+    padding-top:30px;
+    padding-bottom:30px;
+} 
