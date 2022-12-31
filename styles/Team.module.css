@@ -1,16 +1,168 @@
-.team{
+.team {
     background-color: rgb(14, 15, 15);
 }
 
-.Stats__head{
+.Stats__head {
     background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-align:center;
+    text-align: center;
     font-size: 3rem;
-    font-weight:600;
-    margin:0.8rem 0;
-    padding-top:30px;
-    padding-bottom:30px;
-} 
+    font-weight: 600;
+    margin: 0.8rem 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 1200px;
+}
+
+.teamMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to right, rgb(222, 227, 234, 0), rgb(222, 227, 234, .1));
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgb(222, 227, 234, .2);
+}
+
+.teamMember__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.teamMember__img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+/* .teamMember:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+} */
+.socialItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid rgb(222, 227, 234, .2);
+}
+
+.social__github {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: #639;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.social__github:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.social__twitter {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(10, 47, 168);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.social__twitter:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.social__linkedin:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.social__linkedin {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(10, 168, 150);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.social__instagram {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(168, 10, 129);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.social__instagram:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.social__email {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(168, 10, 10);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.social__email:hover {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}

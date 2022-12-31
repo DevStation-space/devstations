@@ -1,26 +1,142 @@
 {
-    "members": [
-      {
-        "name": "John Doe",
-        "designation": "Founder and CEO",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "github": "https://github.com/johndoe",
-        "email": "johndoe@example.com",
-        "twitter": "https://twitter.com/johndoe",
-        "description": "John is a seasoned entrepreneur with over 10 years of experience in the tech industry. He is passionate about building innovative products and helping others succeed in their careers.",
-        "image": ""
-      },
-      {
-        "name": "Jane Smith",
-        "designation": "Director of Marketing",
-        "linkedin": "https://linkedin.com/in/janesmith",
-        "github": "https://github.com/janesmith",
-        "email": "janesmith@example.com",
-        "twitter": "https://twitter.com/janesmith",
-        "description": "Jane is an experienced marketing professional with a strong background in content marketing and social media. She is passionate about helping businesses grow through effective marketing strategies."
-      }
-    ]
+    "teamMembers": {
+        "memberData":[
+            {
+                "id":"1",
+                "name": "Kanishak Chaurasia",
+                "role": "Founder",
+                "bio": "I'm founder of DEV STATION and pre-final year student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener.  ",
+                "image": "/img/team/kanishak.png",
+                "email": "kanishakchaurasia2@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/kanishkchauras4",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
+                    "github": "https://www.github.com/kanishak11-cyber"
+                }
+                
+            },
+            {
+                "id":"2",
+                "name": "Vaishnavi Sharma",
+                "role": "Community Manager",
+                "bio": "I'm a community manager of DEV STATION and  sophomore student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener. ",
+                "image": "/img/team/vaishnavi.png",
+                "email": "vaish1306navi@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/yoongles_paw",
+                    "instagram": "https://www.instagram.com/deletedomo",
+                    "linkedin": "https://www.Iinkedin.com/in/vaishnavi-sharma-156412249",
+                    "github": "https://github.com/ssjhyyk"
+                }
+                
+            },
+            {
+                "id":"3",
+                "name": "Gyan Ratan",
+                "role": "Technical Lead",
+                "bio": "",
+                "image": "/img/team/gyan.png",
+                "email": "gyanratan636@outlook.com",
+                "social": {
+                    "twitter": "https://twitter.com/GyanRat20102986",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/in/gyanratan636/",
+                    "github": "https://www.github.com/Gyan-Ratan"
+                }
+                
+            },
+            {
+                "id":"4",
+                "name": "Himanshu Verma",
+                "role": "Graphic Lead",
+                "bio": " ",
+                "image": "/img/team/himanshu.png",
+                "email": "himanshu2020cs135@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/#",
+                    "instagram": "https://www.instagram.com/hi.manshu.10",
+                    "linkedin": "https://www.linkedin.com/in/himanshu-verma-a1031b214",
+                    "github": "https://github.com/Himanshu-Verma-IO"
+                }
+                
+            },
+             {
+                "id":"5",
+                "name": "Shantanu Sharma",
+                "role": "Content writer",
+                "bio": "",
+                "image": "/img/team/shanu.png",
+                "email": "shantanu2021cs004@abesit.edu.in",
+                "social": {
+                    "twitter": "https://twitter.com/shanusnafu",
+                    "instagram": "https://www.instagram.com/shanusnafu",
+                    "linkedin": "#/https://www.linkedin.com/",
+                    "github": "#/https://www.github.com/"
+                }
+                
+            },
+            {
+                "id":"6",
+                "name": "Khushi agrawal",
+                "role": "Web Developer",
+                "bio": "",
+                "image": "/img/team/khushi.png",
+                "email": "kanishakchaurasia2@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/K_hushi01",
+                    "instagram": "https://www.instagram.com/____khushiagarwal",
+                    "linkedin": "#/https://www.linkedin.com/",
+                    "github": "#/https://www.github.com/"
+                }
+                
+            },
+            {
+                "id":"7",
+                "name": "Shalini Yadav",
+                "role": "Web Developer",
+                "bio": " ",
+                "image": "/img/team/shalini.png",
+                "email": "shalini2020csai080@abesit.edu.in",
+                "social": {
+                    "twitter": "https://twitter.com/Shalini39615839",
+                    "instagram": "https://www.instagram.com/shellyy_yadavv",
+                    "linkedin": "#/https://www.linkedin.com/",
+                    "github": "#/https://www.github.com"
+                }
+                
+            },
+            {
+                "id":"8",
+                "name": "Anuradha Saxena",
+                "role": "Venture Manager",
+                "bio": "  ",
+                "image": "/img/team/anuradha.png",
+                "email": "kanishakchaurasia2@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/kanishkchauras4",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
+                    "github": "https://www.github.com/kanishak11-cyber"
+                }
+                
+            },
+            {
+                "id":"9",
+                "name": "Kanishak Chaurasia",
+                "role": "Founder",
+                "bio": "I'm founder of DEV STATION and pre-final year student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener.  ",
+                "image": "/img/team/kanishak.png",
+                "email": "kanishakchaurasia2@gmail.com",
+                "social": {
+                    "twitter": "https://twitter.com/kanishkchauras4",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
+                    "github": "https://www.github.com/kanishak11-cyber"
+                }
+                
+                
+            }
+        ]
+    }
 }
-      
-
-  
