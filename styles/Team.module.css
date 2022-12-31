@@ -23,6 +23,11 @@
     margin: 0 auto;
     padding: 0 2rem;
     max-width: 1200px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+        
+    
 }
 
 .teamMember {
@@ -67,11 +72,7 @@
     margin-top: 1rem;
 }
 
-/* .teamMember:hover{
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-} */
+
 .socialItem {
     display: flex;
     justify-content: center;
