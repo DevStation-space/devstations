@@ -14,13 +14,15 @@ const Team = () => {
         {
           memberData.map((member) => (
             <div className={styles.teamMember} key={member.id}>
+              <div className={`${styles.imgBox} rounded-full md:h-[180px] md:w-[180px] h-[120px] w-[120px]`}>
               <Image
                 src={`${member.image}`}
                 alt={member.name}
                 height={200}
                 width={200}
-                className={styles.teamMember__img}
+                className={`${styles.teamMember__img} rounded-full`}
               />
+              </div>
               <h1 className={styles.title}>{member.name}</h1>
               <h2 className={styles.subtitle}>{member.role}</h2>
               <div className={styles.social}>
@@ -85,13 +87,15 @@ const Team = () => {
         {
           memberData.map((member) => (
             <div className={styles.teamMember} key={member.id}>
+             <div className={`${styles.imgBox} rounded-full md:h-[180px] md:w-[180px] h-[120px] w-[120px]`}>
               <Image
                 src={`${member.image}`}
                 alt={member.name}
                 height={200}
                 width={200}
-                className={styles.teamMember__img}
+                className={`${styles.teamMember__img} rounded-full`}
               />
+              </div>
               <h1 className={styles.title}>{member.name}</h1>
               <h2 className={styles.subtitle}>{member.role}</h2>
               <div className={styles.social}>
@@ -156,13 +160,15 @@ const Team = () => {
         {
           memberData.map((member) => (
             <div className={styles.teamMember} key={member.id}>
+              <div className={`${styles.imgBox} rounded-full md:h-[180px] md:w-[180px] h-[120px] w-[120px]`}>
               <Image
                 src={`${member.image}`}
                 alt={member.name}
                 height={200}
                 width={200}
-                className={styles.teamMember__img}
+                className={`${styles.teamMember__img} rounded-full`}
               />
+              </div>
               <h1 className={styles.title}>{member.name}</h1>
               <h2 className={styles.subtitle}>{member.role}</h2>
               <div className={styles.social}>

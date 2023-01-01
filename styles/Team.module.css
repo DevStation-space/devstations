@@ -30,6 +30,7 @@
 @media (max-width: 768px) {
     .wrapper {
         flex-direction: column;
+        padding: 0 .5rem;
     }
     
     .teamMember {
