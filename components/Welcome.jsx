@@ -55,7 +55,7 @@ const Welcome = () => {
 
       <div>
         <div className={styles.Stats}>
-          <div className={`${styles.Stats_head} text-lg md:text-xl`}>
+          <div className={`${styles.Stats_head} `}>
             COMMUNITIES /PARTNERS THAT WE ARE WORKING WITH !!
           </div>
           <div className={styles.Stats_holder}>
