@@ -1,12 +1,11 @@
 import Image from "next/image";
-import React from "react";
 import styles from "../styles/Welcome.module.css";
 import Support from "../assets/images/background.png";
-import Bubble from "../assets/images/bubble.png";
-import SOS from "../assets/images/sos.png";
 import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
+import data from "./community.json"
 const Welcome = () => {
+  const community = data.communityPartner.communityDetails;
   return (
     <>
       <div className="flex md:flex-row flex-col   md:px-20  px-5 md:py-20 py-3">
@@ -56,20 +55,26 @@ const Welcome = () => {
 
       <div>
         <div className={styles.Stats}>
-          <div className={styles.Stats_head}>
+          <div className={`${styles.Stats_head} text-lg md:text-xl`}>
             COMMUNITIES /PARTNERS THAT WE ARE WORKING WITH !!
           </div>
           <div className={styles.Stats_holder}>
-            <div className={styles.stats_block}>
-              <div className={styles.stats_data}>
-                <Image src={Bubble} alt="" />
-              </div>
-            </div>
-            <div className={styles.stats_block}>
-              <div className={styles.stats_data}>
-                <Image src={SOS} alt="" />
-              </div>
-            </div>
+            {community.map((member) => (
+              <div className={styles.stats_block} key={member.id}>
+                <div className={styles.stats_data}>
+                  <Image
+                    src={member.logo}
+                    alt={member.name}
+                    width={400}
+                    height={400}
+                    className='bg-transparent'
+                  />
+                  </div>
+                  <h1>
+                    {member.name}
+                  </h1>
+                  </div>
+            ))}
           </div>
         </div>
       </div>

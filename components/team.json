@@ -1,8 +1,8 @@
 {
     "teamMembers": {
-        "memberData":[
+        "memberData": [
             {
-                "id":"1",
+                "id": "1",
                 "name": "Kanishak Chaurasia",
                 "role": "Founder",
                 "bio": "I'm founder of DEV STATION and pre-final year student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener.  ",
@@ -14,10 +14,9 @@
                     "linkedin": "https://www.linkedin.com/Kanishak-Chaurasia-1101",
                     "github": "https://www.github.com/kanishak11-cyber"
                 }
-                
             },
             {
-                "id":"2",
+                "id": "2",
                 "name": "Vaishnavi Sharma",
                 "role": "Community Manager",
                 "bio": "I'm a community manager of DEV STATION and  sophomore student, I'm opportunity seeker , Fun fact about me is I make connections with people easily and I'm a good listener. ",
@@ -29,10 +28,9 @@
                     "linkedin": "https://www.linkedin.com/in/vaishnavi-sharma-156412249",
                     "github": "https://github.com/ssjhyyk"
                 }
-                
             },
             {
-                "id":"3",
+                "id": "3",
                 "name": "Gyan Ratan",
                 "role": "Technical Lead",
                 "bio": "",
@@ -44,10 +42,9 @@
                     "linkedin": "https://www.linkedin.com/in/gyanratan636/",
                     "github": "https://www.github.com/Gyan-Ratan"
                 }
-                
             },
             {
-                "id":"4",
+                "id": "4",
                 "name": "Himanshu Verma",
                 "role": "Graphic Lead",
                 "bio": " ",
@@ -59,10 +56,9 @@
                     "linkedin": "https://www.linkedin.com/in/himanshu-verma-a1031b214",
                     "github": "https://github.com/Himanshu-Verma-IO"
                 }
-                
             },
-             {
-                "id":"5",
+            {
+                "id": "5",
                 "name": "Shantanu Sharma",
                 "role": "Content writer",
                 "bio": "",
@@ -74,10 +70,9 @@
                     "linkedin": "",
                     "github": ""
                 }
-                
             },
             {
-                "id":"6",
+                "id": "6",
                 "name": "Khushi agrawal",
                 "role": "Web Developer",
                 "bio": "",
@@ -89,10 +84,9 @@
                     "linkedin": "",
                     "github": ""
                 }
-                
             },
             {
-                "id":"7",
+                "id": "7",
                 "name": "Shalini Yadav",
                 "role": "Web Developer",
                 "bio": " ",
@@ -104,10 +98,9 @@
                     "linkedin": "",
                     "github": ""
                 }
-                
             },
             {
-                "id":"8",
+                "id": "8",
                 "name": "Anuradha Saxena",
                 "role": "Venture Manager",
                 "bio": "  ",
@@ -119,10 +112,9 @@
                     "linkedin": "https://www.linkedin.com/in/anuradha-saxena-b26455213",
                     "github": "https://www.github.com/"
                 }
-                
             },
             {
-                "id":"9",
+                "id": "9",
                 "name": "Satyam  Srivastava",
                 "role": "Web Developer",
                 "bio": " ",
@@ -131,12 +123,12 @@
                 "social": {
                     "twitter": "https://twitter.com/",
                     "instagram": "https://www.instagram.com/",
-                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b//",
+                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b",
                     "github": "https://www.github.com/SrivastavaSatyam"
                 }
             },
             {
-                "id":"10",
+                "id": "10",
                 "name": "Satyam  Srivastava",
                 "role": "Web Developer",
                 "bio": " ",
@@ -145,10 +137,47 @@
                 "social": {
                     "twitter": "https://twitter.com/",
                     "instagram": "https://www.instagram.com/",
-                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b//",
+                    "linkedin": "https://www.linkedin.com/in/satyam-srivastava-63a88519b",
                     "github": "https://www.github.com/SrivastavaSatyam"
                 }
-            }            
+            }
+        ]
+    },
+    "volunteerData": {
+        "volunteer": [
+            {
+                "id": "1",
+                "name": "Kanishak Chaurasia",
+                "role": "Volunteer",
+                "bio": " ",
+                "image": "/img/team/kanishak.png",
+                "email": "vaish1306navi@gmail.com",
+                "social":{
+                    "twitter": "https://twitter.com/kanishak_chaurasia",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/in/kanishak-chaurasia-1a8b1b1b9",
+                    "github": ""
+                }
+            }
+        ]
+    },
+    "mentorData":{
+        "mentor":[
+            {
+                "id": "1",
+                "name": "Kanishak Chaurasia",
+                "role": "Volunteer",
+                "bio": " ",
+                "image": "/img/team/kanishak.png",
+                "email": "vaish1306navi@gmail.com",
+                "social":{
+                    "twitter": "https://twitter.com/kanishak_chaurasia",
+                    "instagram": "https://www.instagram.com/kanishak_chaurasia",
+                    "linkedin": "https://www.linkedin.com/in/kanishak-chaurasia-1a8b1b1b9",
+                    "github": ""
+                }
+            }
         ]
     }
+
 }

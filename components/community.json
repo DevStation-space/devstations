@@ -1,0 +1,22 @@
+{
+    "communityPartner":{
+        "communityDetails":[
+            {
+                "id": "1",
+                "name": "SOS Tech ",
+                "description": "n",
+                "url": "http://www.communitypartner1.com",
+                "logo": "/img/community/sos.png",
+                "alt": "sos-logo"
+            },
+            {
+                "id": "2",
+                "name": "bubble",
+                "description": "",
+                "url": "http://www.communitypartner1.com",
+                "logo": "/img/community/bubble.png",
+                "alt": "bubble-logo"
+            }
+        ]
+    }
+}

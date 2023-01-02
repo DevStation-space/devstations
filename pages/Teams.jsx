@@ -9,6 +9,8 @@ import dta from "../components/team.json";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Particle from "../components/Particle";
+import Volunteer from "../components/Volunteer";
+import Mentor from "../components/Mentor";
 const Teams = () => {
   const memberData = dta.teamMembers.memberData;
   return (
@@ -95,7 +97,8 @@ const Teams = () => {
           </div>
         </div>
       </div>
-
+            <Volunteer />
+            <Mentor />
       <Footer />
     </>
   );
