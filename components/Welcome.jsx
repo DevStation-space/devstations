@@ -70,7 +70,7 @@ const Welcome = () => {
                     className='bg-transparent'
                   />
                   </div>
-                  <h1>
+                  <h1 className='text-white px-2 py-1 text-2xl '>
                     {member.name}
                   </h1>
                   </div>
