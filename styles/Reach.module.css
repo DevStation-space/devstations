@@ -1,17 +1,17 @@
 .reach{
-    background-color: rgb(14 15 15);
+    background-color: #0b0a52;
+    height: 100vh;
 }
 .Stats__head{
-    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+    background-color: rgb(225 229 254/1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-align:center;
-    font-size: 3rem;
-    font-weight:600;
-    margin:0.8rem 0;
-    padding-top:30px;
-    padding-bottom:30px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 104px;
 }  
 .container{
     display: flex;
@@ -24,7 +24,7 @@
 .card{
     align-items: center;
     background-image: linear-gradient(to right,rgb(222,227,234,0),rgb(222,227,234,.1));
-    border: 1px solid #639;
+    /* border: 1px solid #639; */
     border: 1px solid rgb(222,227,234,.2);
     border-radius: 0.5rem;
     display: flex;

@@ -28,24 +28,24 @@ const Header = () => {
           <div className="text-white md:flex hidden   items-center ">
             <div className="flex flex-row  items-center">
               <ul className="flex  ">
-                <Link href="/community">
+                <Link href="/Community">
                   <li className={styles.listItem}>Community</li>
                 </Link>
 
-                {/* <Link href="/club">
-                  <li className={styles.listItem}>Club</li>
-                </Link> */}
+                <Link href="/Teams">
+                  <li className={styles.listItem}>Team</li>
+                </Link>
 
-                <Link href="/event">
+                <Link href="/Event">
                   <li className={styles.listItem}>Events</li>
                 </Link>
 
-                <Link href="/about">
+                <Link href="/About">
                   <li className={styles.listItem}>About</li>
                 </Link>
-                <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
+                {/* <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
                         <li className='hover:text-black hover:bg-white cursor-pointer px-2 py-1'>Innoverse Registration</li>
-                </Link>
+                </Link> */}
               </ul>
             </div>
           </div>

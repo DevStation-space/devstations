@@ -100,3 +100,100 @@
     text-align: center;
 }
 }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 7px 20px 7px 20px;
+    margin-top: 100px;
+    color: #fff;
+}
+.box h1{
+    float: left;
+    font-size: 50px;
+    /* font-style: italic; */
+    font-family: system-ui;
+}
+.box p{
+
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+    padding-top: 49px;
+
+}
+.box button{
+    position: absolute;
+    margin-top: 324px;
+    margin-left: -300px;
+    background-color: #2125cea8;
+    padding: 15px;
+    border-radius: 28px;
+}
+.boxRow{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards{
+    margin:75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #036eea;
+    color: white;
+    border-bottom-right-radius: 18px;
+}
+.cardtitle{
+    font-size: 23px;
+    font-family: 'fantasy';
+    margin-top: 10px;
+}
+
+.cardtext{
+    padding: 10px;
+    font-size: medium;
+    font-family: 'cursive';
+    margin-top: 5px;
+}
+.cardbutton{
+    background-color: blue;
+    margin: 11px;
+    padding: 11px;
+    border-radius: 27px;
+}
+
+.upcoming{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 198px;
+    margin-top: -20px;
+    background: #e8f0fc;
+    color: #1268d7;
+    font-weight: 500;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+    z-index: 9;
+}

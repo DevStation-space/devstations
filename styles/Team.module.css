@@ -1,16 +1,15 @@
-.team {
-    background-color: rgb(14, 15, 15);
-}
-
+/* .team{
+    padding: 65px;
+    height: 100vh;
+} */
 .Stats__head {
-    background: linear-gradient(90deg, #939393 -1.81%, rgba(174, 65, 65, 0.47) 100%);
+    background-color: rgb(225 229 254/1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin: 0.8rem 0;
+    font-size: 37px;
+    font-weight: 500;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -21,11 +20,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 0 2rem;
     max-width: 1200px;
- 
-        
-    
+    color: #fff;
 }
 @media (max-width: 768px) {
     .wrapper {
@@ -50,6 +46,7 @@
         font-weight: 600;
         margin-top: .5rem;
     }
+
 }
 
 @media (max-width: 320px) {
@@ -74,6 +71,15 @@
         font-weight: 600;
         margin-top: .5rem;
     }
+    .imgBoder{
+        border: 3px solid green;
+        width: 147px !important;
+        height: 191px !important;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -117px;
+        margin-left: 29px;
+    }
 }
     
 
@@ -83,20 +89,105 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
-    width: 300px;
-    height: 400px;
-    background-image: linear-gradient(to right, rgb(222, 227, 234, 0), rgb(222, 227, 234, .1));
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    transition: all 0.2s ease-in-out;
-    border: 1px solid rgb(222, 227, 234, .2);
+
+}
+.imgBoder{
+    border: 3px solid green;
+    width: 183px !important;
+    height: 183px !important;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -99px;
+}
+.iconGitCover{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin-top: -248px;
+    margin-left: 107px;
+    background-color: rgb(36, 38, 197);
+}
+.iconStyleGit{
+    position: absolute;
+    margin-top: -249px;
+    margin-left: 107px;
+    border-radius: 17px;
+}
+.iconTwitCover{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin-top: -179px;
+    margin-left: 168px;
+    background-color: rgb(36, 38, 197);
+}
+.iconStyleTwit{
+    position: absolute;
+    margin-top: -177px;
+    margin-left: 169px;
+    border-radius: 17px;
+}
+.iconLinCover{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin-top: -88px;
+    margin-left: 186px;
+    background-color: rgb(36, 38, 197);
+}
+.iconStyleLin{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 188px;
+    border-radius: 17px;
+}
+.iconInstaCover{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 157px;
+    background-color: rgb(36, 38, 197);
+}
+.iconStyleInsta{
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 158px;
+    border-radius: 17px;
+}
+.iconEmailCover{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 89px;
+    background-color: rgb(36, 38, 197);
+}
+.iconStyleEmail{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 89px;
+    border-radius: 17px;
+}
+.imgBox{
+    margin-left: 8px;
 }
 
 .teamMember__img {
-    width: 100%;
-    height: 100%;
+    width: 148px;
+    height: 164px;
     border-radius: 50%;
     object-fit: cover;
 }

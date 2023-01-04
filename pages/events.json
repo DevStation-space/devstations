@@ -1,0 +1,62 @@
+{
+    "eventImage": {
+      "eventDetails": [
+        {
+            "id": 1,
+            "title": "INNOVERSE",
+            "text": "Innoverse brings an open-source enthusiasts and entrepreneurs together to share new ideas and learn from industry experts",
+            "imageUrl": "/img/event/innoverse.jpg",
+            "status":"OnGoing",
+            "links":"https://innoverse.devstations.tech/"
+        },
+        {
+            "id": 2,
+            "title": "IDEATHON",
+            "text": "An open-source Ideathon, to bring out the best of both enthusiasts and entrepreneurs in this field",
+            "imageUrl": "/img/event/ideathon.png",
+            "status":"OnGoing",
+            "links":"https://ideathon.devstations.tech/"
+        },
+        {
+          "id": 3,
+          "title": "Session on I2C2",
+          "text": "How to identify a problem, brainstorm and ideate a solution to it?",
+          "imageUrl": "/img/event/session.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/i2c2ideathon"
+        },
+        {
+          "id": 4,
+          "title": "I2 C2 IDEATHON",
+          "text": "I2C2 : Ideate, Innovate, Code, Compete is an ideathon",
+          "imageUrl": "/img/event/i2c2ideathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/i2c2ideathon"
+        },
+        {
+          "id": 5,
+          "title": "ML MARATHON",
+          "text": "We invite any researcher—from students to academics to employees of public and private organizations—to build AI applications on Microsoft AI services, using at least one of Microsoft’s AI-supporting",
+          "imageUrl": "/img/event/MLMarathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/mlmarathon"
+        },
+        {
+          "id": 6,
+          "title": "ML MARATHON",
+          "text": "We invite any researcher—from students to academics to employees of public and private organizations—to build AI applications on Microsoft AI services, using at least one of Microsoft’s AI-supporting",
+          "imageUrl": "/img/event/MLMarathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/mlmarathon"
+        },
+        {
+          "id": 7,
+          "title": "ML MARATHON",
+          "text": "We invite any researcher—from students to academics to employees of public and private organizations—to build AI applications on Microsoft AI services, using at least one of Microsoft’s AI-supporting",
+          "imageUrl": "/img/event/MLMarathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/mlmarathon"
+        }
+      ]
+    }
+  }
