@@ -59,16 +59,16 @@ const Header = () => {
                   <li className={styles.listItem}>Events</li>
                 </Link>
                 
-                  <button className={styles.listItem} onClick={() => (CommunityH())}>
+                  {/* <button className={styles.listItem} onClick={() => (CommunityH())}>
                     Community
-                  </button>
+                  </button> */}
 
                 {/* <Link href="/event"> */}
-                  <button className={styles.listItem} onClick={()=>(EventH())}>Events</button>
+                  {/* <button className={styles.listItem} onClick={()=>(EventH())}>Events</button> */}
                 {/* </Link> */}
 
                 
-                  <button className={styles.listItem} onClick={() => (AboutH())}>About</button>
+                  {/* <button className={styles.listItem} onClick={() => (AboutH())}>About</button> */}
 
                 <Link href="/About">
                   <li className={styles.listItem}>About</li>
