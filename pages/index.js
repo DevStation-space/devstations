@@ -15,7 +15,7 @@ export default function Home() {
 
 
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper}`}>
       <Head>
         <title>Dev Station</title>
         <meta name="description" content="Dev Station " />

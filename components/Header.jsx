@@ -5,14 +5,31 @@ import styles from "../styles/Header.module.css";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt4 } from "react-icons/hi";
+import {useRouter} from "next/router";
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const Router = useRouter();
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+  function CommunityH() {
+    Router.push("/Community");
+  }
+  function HomeH() {
+    Router.push("/");
+  }
+  function EventH() {
+    Router.push("/Event");
+  }
+  function AboutH() {
+    Router.push("/About");
+  }
   return (
     <>
       <nav>
         <div className="flex  justify-between md:px-20 px-4">
-          <Link href="/" alt="">
-            <div className="flex flex-row justify-center cursor-pointer items-center">
+          {/* <Link href="/" alt=""> */}
+            <div className="flex flex-row justify-center cursor-pointer items-center" onClick={() => (HomeH())}>
               <div className="w-20 h-20  rounded-full items-center">
                 <Image
                   src={Logo}
@@ -20,11 +37,13 @@ const Header = () => {
                   className="w-20 h-20 rounded-full  object-cover"
                 />
               </div>
-              <h1 className="items-center text-2xl py-5">
+              <h1 className="items-center text-2xl py-5" onClick={() => (HomeH())}>
                 <span className="text-[#FFD600] mx-1">DEV</span>STATION
               </h1>
             </div>
-          </Link>
+          {/* </Link> */}
+
+          <h1></h1>
           <div className="text-white md:flex hidden   items-center ">
             <div className="flex flex-row  items-center">
               <ul className="flex  ">
@@ -39,6 +58,17 @@ const Header = () => {
                 <Link href="/Event">
                   <li className={styles.listItem}>Events</li>
                 </Link>
+                
+                  <button className={styles.listItem} onClick={() => (CommunityH())}>
+                    Community
+                  </button>
+
+                {/* <Link href="/event"> */}
+                  <button className={styles.listItem} onClick={()=>(EventH())}>Events</button>
+                {/* </Link> */}
+
+                
+                  <button className={styles.listItem} onClick={() => (AboutH())}>About</button>
 
                 <Link href="/About">
                   <li className={styles.listItem}>About</li>
@@ -46,6 +76,15 @@ const Header = () => {
                 {/* <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
                         <li className='hover:text-black hover:bg-white cursor-pointer px-2 py-1'>Innoverse Registration</li>
                 </Link> */}
+                <Link
+                  href="https://hack2skill.com/hack/innoverse"
+                  alt="hackathon"
+                  target="_blank"
+                >
+                  <li className={`${styles.listItem} hover:text-black hover:bg-white cursor-pointer px-2 py-1`}>
+                    Innoverse Registration
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -76,11 +115,6 @@ const Header = () => {
                     <Link href="/Community">
                       <li className={styles.listItem}>Community</li>
                     </Link>
-
-                    <Link href="/Club">
-                      <li className={styles.listItem}>Club</li>
-                    </Link>
-
                     <Link href="/Event">
                       <li className={styles.listItem}>Events</li>
                     </Link>
@@ -88,10 +122,13 @@ const Header = () => {
                     <Link href="/About">
                       <li className={styles.listItem}>About</li>
                     </Link>
-                    <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
-                        <li>Innoverse Registration</li>
+                    <Link
+                      href="https://hack2skill.com/hack/innoverse"
+                      alt="hackathon"
+                      target="_blank"
+                    >
+                      <li>Innoverse Registration</li>
                     </Link>
-
                   </ul>
                 </div>
               </ul>
