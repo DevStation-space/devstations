@@ -4,10 +4,12 @@ import Particle from "../components/Particle";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/About.module.css";
+import ImportantBar from "../components/importantBar";
 
-const about = () => {
+
+const About = () => {
   return (
-    <>
+    <div style={{color:'whitesmoke'}}>
       <Head>
         <title>DevStation | About us</title>
         <meta
@@ -17,6 +19,7 @@ const about = () => {
         />
       </Head>
       <Header />
+      <ImportantBar/>
       <div className={styles.container}>
         <div className={styles.hero}>
           <h1 className={styles.title}>DevStation</h1>
@@ -81,8 +84,8 @@ const about = () => {
       </div>
       <Footer />
       <Particle />
-    </>
+    </div>
   );
 };
 
-export default about;
+export default About;

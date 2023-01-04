@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/Reach.module.css";
 
-
 const Reach = () => (
   <div className={styles.reach}>
   <div className={styles.Stats__head}>Our Reach</div>
@@ -10,7 +9,7 @@ const Reach = () => (
         <div className={styles.cardIcon}>
           <svg
             stroke="currentColor"
-            fill="currentColor"
+            fill="rgb(68 66 233)"
             strokeWidth="0"
             viewBox="0 0 640 512"
             height="1em"
@@ -27,7 +26,7 @@ const Reach = () => (
         <div className={styles.cardIcon}>
           <svg
             stroke="currentColor"
-            fill="currentColor"
+            fill="rgb(68 66 233)"
             strokeWidth="0"
             viewBox="0 0 640 512"
             height="1em"
@@ -44,7 +43,7 @@ const Reach = () => (
         <div className={styles.cardIcon}>
           <svg
             stroke="currentColor"
-            fill="currentColor"
+            fill="rgb(68 66 233)"
             strokeWidth="0"
             viewBox="0 0 640 512"
             height="1em"

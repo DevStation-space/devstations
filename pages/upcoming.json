@@ -1,0 +1,22 @@
+{
+  "carouselImage": {
+    "imgDetails": [
+      {
+        "id": 1,
+        "title": "INNOVERSE",
+        "text": "At Innoverse, we bring open-source enthusiasts and entrepreneurs together and share new ideas and learn from industry experts. “INNOVATION is taking two things that exist and putting them together in a new way. What good is an idea if it remains an idea? TRY. EXPERIMENT. FAIL.TRY AGAIN. CHANGE THE WORLD.",
+        "imageUrl": "/img/event/innoverse.jpg",
+        "backgroundColor":"#712a8285",
+        "links":"https://innoverse.devstations.tech/"
+      },
+      {
+        "id": 2,
+        "title": "IDEATHON",
+        "text": "An open-source Ideathon, to bring out the best of both enthusiasts and entrepreneurs in this field. This is a fantastic learning opportunity for anyone interested in open-source and project management",
+        "imageUrl": "/img/event/ideathon.png",
+        "backgroundColor":"#9c9b39b5",
+        "links":"https://ideathon.devstations.tech/"
+      }
+    ]
+  }
+}

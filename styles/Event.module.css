@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 7px 20px 7px 20px;
+    color: #fff;
+}

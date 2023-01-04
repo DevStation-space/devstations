@@ -9,11 +9,14 @@ import Whatweoffer from "../components/Whatweoffer";
 import Teams from "../components/Team";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ImportantBar from "../components/importantBar";
 
-const community = () => {
+
+const Community = () => {
   return (
-    <>
+    <div style={{color:'whitesmoke'}}>
       <Header />
+      <ImportantBar/>
       <div className={styles.background}>
         <div className={styles.container}>
           <div className={`${styles.backImg} `}>
@@ -59,8 +62,8 @@ const community = () => {
         <Footer />
         <Particle />
       </div>
-    </>
+    </div>
   );
 };
 
-export default community;
+export default Community;

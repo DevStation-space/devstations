@@ -1,0 +1,9 @@
+.partners{
+    background-color: #a4a4c1cf;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 28px;
+    font-family: revert;
+}
