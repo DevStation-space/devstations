@@ -1,6 +1,6 @@
 .what__we__offer {
     width: 90%;
-    height: auto;
+    max-height: fit-content;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -14,16 +14,18 @@
 .offer {
     color: white;
     position: absolute;
+    justify-content: center;
     width: 25%;
     height: 25%;
     left: 15%;
     text-align: center;
-    top: 25%;
+    padding-top: 15%;
+    max-height: fit-content;
 }
 
 .container {
     width: 50%;
-    height: auto;
+    max-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -31,14 +33,19 @@
 }
 
 .flex {
+    font-size: 18px;
+    font-weight: 500px;
     width: 90%;
-    height: 90px;
+    height: 50px;
     color: white;
+    padding-left: 15px;
     border-radius: 30px;
-    margin: 20px;
+    margin:8px;
+    padding-top:10px;
     justify-content: center;
-    background: linear-gradient(to right, rgb(214, 70, 70), rgb(138, 19, 19), rgb(20, 19, 19))
+    background: linear-gradient(to right, rgb(53, 46, 153), rgb(16, 5, 58),rgb(20, 19, 19) );
 }
+
 
 .offer span {
     font-size: 34px;
