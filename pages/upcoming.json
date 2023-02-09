@@ -16,6 +16,15 @@
         "imageUrl": "/img/event/ideathon.png",
         "backgroundColor":"#9c9b39b5",
         "links":"https://ideathon.devstations.tech/"
+      },
+      {
+        "id": 3,
+        "title": "CONVOKE 5.0",
+        "text": "Cluster Innovation Centre, at the heart of Delhi University&apos;s North Campus, is organizing DU&apos;s biggest Tech Fest (CONVOKE 5.0) on the 11th and 12th of February 2023.",
+        "imageUrl": "/img/event/convoke.jpg",
+        "backgroundColor":"#841778",
+        "links":"https://hashhacks-cic.devfolio.co "
+        
       }
     ]
   }

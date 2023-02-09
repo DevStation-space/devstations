@@ -76,7 +76,7 @@ const Header = () => {
                 {/* <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
                         <li className='hover:text-black hover:bg-white cursor-pointer px-2 py-1'>Innoverse Registration</li>
                 </Link> */}
-                <Link
+                {/* <Link
                   href="https://hack2skill.com/hack/innoverse"
                   alt="hackathon"
                   target="_blank"
@@ -84,7 +84,7 @@ const Header = () => {
                   <li className={`${styles.listItem} hover:text-black hover:bg-white cursor-pointer px-2 py-1`}>
                     Innoverse Registration
                   </li>
-                </Link>
+                </Link> */}
               </ul>
             </div>
           </div>
@@ -122,13 +122,13 @@ const Header = () => {
                     <Link href="/About">
                       <li className={styles.listItem}>About</li>
                     </Link>
-                    <Link
+                    {/* <Link
                       href="https://hack2skill.com/hack/innoverse"
                       alt="hackathon"
                       target="_blank"
                     >
                       <li>Innoverse Registration</li>
-                    </Link>
+                    </Link> */}
                   </ul>
                 </div>
               </ul>
