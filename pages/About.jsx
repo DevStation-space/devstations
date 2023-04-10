@@ -21,7 +21,7 @@ const About = () => {
         />
       </Head>
       <Header />
-      <ImportantBar />
+      {/* <ImportantBar /> */}
       <div className={styles.container}>
 
         <div className={styles.hero}>

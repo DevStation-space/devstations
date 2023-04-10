@@ -22,7 +22,7 @@ const Event = () => {
   return (
     <div style={{color:'whitesmoke'}}>
     <Header/>
-    <ImportantBar/>
+    {/* <ImportantBar/> */}
     <div className={styles.container} style={{paddingTop:'30px'}}>
       <Carousel interval={1500} showStatus={false} showIndicators={false} showArrows={true} infiniteLoop={true} width={"70%"} className={styles.mySwiper} showThumbs={false}>
         {imgDetails.map((item) => (

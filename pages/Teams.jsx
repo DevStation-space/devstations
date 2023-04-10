@@ -20,7 +20,7 @@ const Teams = () => {
         <title>Teams</title>
       </Head>
       <Header />
-      <ImportantBar />
+      {/* <ImportantBar /> */}
       <div className={styles.team}>
         <div className={styles.Stats__head}>Our Team</div>
         <div>
