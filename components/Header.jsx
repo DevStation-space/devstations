@@ -5,89 +5,75 @@ import styles from "../styles/Header.module.css";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt4 } from "react-icons/hi";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
+
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Router = useRouter();
+
   const handleToggle = () => {
     setToggleMenu(!toggleMenu);
   };
-  function CommunityH() {
-    Router.push("/Community");
-  }
-  function HomeH() {
-    Router.push("/");
-  }
-  function EventH() {
-    Router.push("/Event");
-  }
-  function AboutH() {
-    Router.push("/About");
-  }
+
+  const handleNavigation = (path) => {
+    Router.push(path);
+    setToggleMenu(false);
+  };
+
   return (
     <>
       <nav>
-        <div className="flex  justify-between md:px-20 px-4">
-          {/* <Link href="/" alt=""> */}
-            <div className="flex flex-row justify-center cursor-pointer items-center" onClick={() => (HomeH())}>
-              <div className="w-20 h-20  rounded-full items-center">
-                <Image
-                  src={Logo}
-                  alt="home"
-                  className="w-20 h-20 rounded-full  object-cover"
-                />
-              </div>
-              <h1 className="items-center text-2xl py-5" onClick={() => (HomeH())}>
-                <span className="text-[#FFD600] mx-1">DEV</span>STATION
-              </h1>
+        <div className="flex justify-between md:px-20 px-4">
+          <div
+            className="flex flex-row justify-center cursor-pointer items-center"
+            onClick={() => handleNavigation("/")}
+          >
+            <div className="w-20 h-20 rounded-full items-center">
+              <Image
+                src={Logo}
+                alt="home"
+                className="w-20 h-20 rounded-full object-cover"
+              />
             </div>
-          {/* </Link> */}
+            <h1 className="items-center text-2xl py-5">
+              <span className="text-[#FFD600] mx-1">DEV</span>STATION
+            </h1>
+          </div>
 
-          <h1></h1>
-          <div className="text-white md:flex hidden   items-center ">
-            <div className="flex flex-row  items-center">
-              <ul className="flex  ">
-                <Link href="/Community">
-                  <li className={styles.listItem}>Community</li>
-                </Link>
-
-                <Link href="/Teams">
-                  <li className={styles.listItem}>Team</li>
-                </Link>
-
-                <Link href="/Event">
-                  <li className={styles.listItem}>Events</li>
-                </Link>
-                
-                  {/* <button className={styles.listItem} onClick={() => (CommunityH())}>
-                    Community
-                  </button> */}
-
-                {/* <Link href="/event"> */}
-                  {/* <button className={styles.listItem} onClick={()=>(EventH())}>Events</button> */}
-                {/* </Link> */}
-
-                
-                  {/* <button className={styles.listItem} onClick={() => (AboutH())}>About</button> */}
-
-                <Link href="/About">
-                  <li className={styles.listItem}>About</li>
-                </Link>
-                {/* <Link href='https://hack2skill.com/hack/innoverse' alt='hackathon' target='_blank'>
-                        <li className='hover:text-black hover:bg-white cursor-pointer px-2 py-1'>Innoverse Registration</li>
-                </Link> */}
-                {/* <Link
-                  href="https://hack2skill.com/hack/innoverse"
-                  alt="hackathon"
-                  target="_blank"
+          <div className="text-white md:flex hidden items-center ">
+            <div className="flex flex-row items-center">
+              <ul className="flex">
+                <li
+                  className={styles.listItem}
+                  onClick={() => handleNavigation("/Community")}
                 >
-                  <li className={`${styles.listItem} hover:text-black hover:bg-white cursor-pointer px-2 py-1`}>
-                    Innoverse Registration
-                  </li>
-                </Link> */}
+                  Community
+                </li>
+
+                <li
+                  className={styles.listItem}
+                  onClick={() => handleNavigation("/Teams")}
+                >
+                  Team
+                </li>
+
+                <li
+                  className={styles.listItem}
+                  onClick={() => handleNavigation("/Event")}
+                >
+                  Events
+                </li>
+
+                <li
+                  className={styles.listItem}
+                  onClick={() => handleNavigation("/About")}
+                >
+                  About
+                </li>
               </ul>
             </div>
           </div>
+
           <div className="flex relative items-center">
             {toggleMenu ? (
               <AiOutlineClose
@@ -112,23 +98,24 @@ const Header = () => {
                 </li>
                 <div className="items-center">
                   <ul className="flex flex-col text-xl">
-                    <Link href="/Community">
-                      <li className={styles.listItem}>Community</li>
-                    </Link>
-                    <Link href="/Event">
-                      <li className={styles.listItem}>Events</li>
-                    </Link>
-
-                    <Link href="/About">
-                      <li className={styles.listItem}>About</li>
-                    </Link>
-                    {/* <Link
-                      href="https://hack2skill.com/hack/innoverse"
-                      alt="hackathon"
-                      target="_blank"
+                    <li
+                      className={styles.listItem}
+                      onClick={() => handleNavigation("/Community")}
                     >
-                      <li>Innoverse Registration</li>
-                    </Link> */}
+                      Community
+                    </li>
+                    <li
+                      className={styles.listItem}
+                      onClick={() => handleNavigation("/Event")}
+                    >
+                      Events
+                    </li>
+                    <li
+                      className={styles.listItem}
+                      onClick={() => handleNavigation("/About")}
+                    >
+                      About
+                    </li>
                   </ul>
                 </div>
               </ul>

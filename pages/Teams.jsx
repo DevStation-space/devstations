@@ -11,7 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import Particle from "../components/Particle";
 import Volunteer from "../components/Volunteer";
 import Mentor from "../components/Mentor";
-import ImportantBar from "../components/importantBar";
+
 const Teams = () => {
   const memberData = dta.teamMembers.memberData;
   return (

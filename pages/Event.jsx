@@ -41,7 +41,7 @@ const Event = () => {
                   </div>
                   <Link
                     href={`${item.links}`}
-                    traget="_blank"
+                    target="_blank"
                     alt="Event Link"
                   >
                     <button> View Event </button>

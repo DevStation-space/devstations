@@ -20,7 +20,7 @@
     background-color: rgb(209, 205, 201);
     /* opacity: 0.5; */
     border-radius: 10px;
-    transparent: 0.5;
+   /* transparent: 0.5; */
     filter: blur(10.5px);
 
 }
@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-
+/* 
 @media only screen and (max-width: 300px) {
     .background {
         height: 300px;
@@ -202,5 +202,19 @@
         font-size: 7px;
         align-items: center;
         border-radius: 5px;
+    }
+} */
+
+/* Path: styles\Community.module.css */
+
+@media screen and (max-width: 786px) {
+    .background {
+        height: 300px;
+    }
+
+    .para2{
+        line-height: 40px;
+        margin:0 0;
+        font-size:12px;
     }
 }
