@@ -1,16 +1,14 @@
-import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Particle from './Particle';
+import Footer from "./Footer";
+import Particle from "./Particle";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-black  text-white ">
       <Header />
-      <main className="flex-grow">
+      <main className="mt-24 lg:px-20 px-6 ">
         {children}
       </main>
-      <Particle />
       <Footer />
     </div>
   );

@@ -1,129 +1,120 @@
-import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/images/logo.png";
-import styles from "../styles/Header.module.css";
 import { useState } from "react";
-import { AiOutlineClose } from "react-icons/ai";
-import { HiMenuAlt4 } from "react-icons/hi";
 import { useRouter } from "next/router";
 
 const Header = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const Router = useRouter();
+  const [toggle, setToggle] = useState(true);
+  const router = useRouter();
+  const { pathname } = router;
 
-  const handleToggle = () => {
-    setToggleMenu(!toggleMenu);
-  };
-
-  const handleNavigation = (path) => {
-    Router.push(path);
-    setToggleMenu(false);
-  };
+  const navLinks = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "Community",
+      path: "/community",
+    },
+    {
+      name: "Team",
+      path: "/team",
+    },
+    {
+      name: "Events",
+      path: "/event",
+    },
+    {
+      name: "About",
+      path: "/about",
+    },
+    {
+      name: "Services",
+      path: "/#services",
+    },
+  ];
 
   return (
-    <>
-      <nav>
-        <div className="flex justify-between md:px-20 px-4">
-          <div
-            className="flex flex-row justify-center cursor-pointer items-center"
-            onClick={() => handleNavigation("/")}
+    <div className="fixed w-full  shadow-3xl text-white  py-3 bg-black z-[100] px-4  md:px-20  shadow-sm shadow-current  ">
+      <div className="flex items-center justify-between h-16 ">
+        <Link
+          href="/"
+          className="flex flex-row justify-center items-center text-xl "
+        >
+          <img
+            src="/assets/img/logo.png"
+            alt="logo"
+            className="h-16 w-16 lg:h-20 lg:w-20 cursor-pointer"
+          />
+          <div className="text-[#ffec04]">
+            DEV <span className="text-white">STATION</span>
+          </div>
+        </Link>
+        <div className="lg:hidden">
+          <button
+            className="focus:outline-none"
+            onClick={() => setToggle(!toggle)}
           >
-            <div className="w-20 h-20 rounded-full items-center">
-              <Image
-                src={Logo}
-                alt="home"
-                className="w-20 h-20 rounded-full object-cover"
-              />
-            </div>
-            <h1 className="items-center text-2xl py-5">
-              <span className="text-[#FFD600] mx-1">DEV</span>STATION
-            </h1>
-          </div>
-
-          <div className="text-white md:flex hidden items-center ">
-            <div className="flex flex-row items-center">
-              <ul className="flex">
-                <li
-                  className={styles.listItem}
-                  onClick={() => handleNavigation("/Community")}
-                >
-                  Community
-                </li>
-
-                <li
-                  className={styles.listItem}
-                  onClick={() => handleNavigation("/Teams")}
-                >
-                  Team
-                </li>
-
-                <li
-                  className={styles.listItem}
-                  onClick={() => handleNavigation("/Event")}
-                >
-                  Events
-                </li>
-
-                <li
-                  className={styles.listItem}
-                  onClick={() => handleNavigation("/About")}
-                >
-                  About
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="flex relative items-center">
-            {toggleMenu ? (
-              <AiOutlineClose
-                fontSize={28}
-                className="text-white md:hidden cursor-pointer"
-                onClick={() => setToggleMenu(false)}
-              />
-            ) : (
-              <HiMenuAlt4
-                fontSize={28}
-                className="text-white md:hidden cursor-pointer"
-                onClick={() => setToggleMenu(true)}
-              />
-            )}
-            {toggleMenu && (
-              <ul
-                className="z-10 fixed top-0 -right-2 p-3 w-[40vw] h-screen shadow-xl md:hidden list-none
-                flex flex-col justify-start items-center rounded-md blueGlassmorphism text-white animate-slide-in"
-              >
-                <li className="text-xl w-full my-2">
-                  <AiOutlineClose onClick={() => setToggleMenu(false)} />
-                </li>
-                <div className="items-center">
-                  <ul className="flex flex-col text-xl">
-                    <li
-                      className={styles.listItem}
-                      onClick={() => handleNavigation("/Community")}
-                    >
-                      Community
-                    </li>
-                    <li
-                      className={styles.listItem}
-                      onClick={() => handleNavigation("/Event")}
-                    >
-                      Events
-                    </li>
-                    <li
-                      className={styles.listItem}
-                      onClick={() => handleNavigation("/About")}
-                    >
-                      About
-                    </li>
-                  </ul>
-                </div>
-              </ul>
-            )}
-          </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8 text-[#ffec04]"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              {toggle ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              )}
+            </svg>
+          </button>
         </div>
-      </nav>
-    </>
+        <div className="hidden lg:flex gap-3 md:text-xl text-lg">
+          {navLinks.map((link, index) => (
+            <Link
+              key={index}
+              href={link.path}
+              className={`${
+                pathname === link.path
+                  ? "text-[#ffec04]   whiteGlassmorphism px-4 py-3"
+                  : "text-white  blueGlassmorphism px-4 py-3"
+              } hover:text-[#ffec04] hover: `}
+            >
+              <div>{link.name}</div>
+            </Link>
+          ))}
+        </div>
+      </div>
+      <div
+        className={`${
+          toggle ? "hidden" : "flex bg-black bg-opacity-90 mt-4"
+        } lg:hidden flex-col gap-3 absolute  w-full py-5 text-center shadow-xl lg:bg-transparent lg:shadow-none lg:w-auto lg:flex-row lg:gap-3  `}
+      >
+        {navLinks.map((link, index) => (
+          <Link
+            key={index}
+            href={link.path}
+            className={`${
+              pathname === link.path ? "text-[#ffec04]  " : "text-white"
+            } hover:text-[#ffec04]  `}
+          >
+            {link.name}
+          </Link>
+        ))}
+      </div>
+    </div>
   );
 };
 
