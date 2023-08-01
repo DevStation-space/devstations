@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import Particle from "./Particle";
 import Header from "./Header";
 
 const Layout = ({ children }) => {

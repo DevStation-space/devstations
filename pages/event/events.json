@@ -1,0 +1,55 @@
+{
+    "eventImage": {
+      "eventDetails": [
+        {
+            "id": 1,
+            "title": "INNOVERSE",
+            "text": "Innoverse brings an open-source enthusiasts and entrepreneurs together to share new ideas and learn from industry experts",
+            "imageUrl": "/assets/img/event/innoverse.jpg",
+            "status":"Ended",
+            "links":"https://innoverse.devstations.tech/"
+        },
+        {
+            "id": 2,
+            "title": "IDEATHON",
+            "text": "An open-source Ideathon, to bring out the best of both enthusiasts and entrepreneurs in this field",
+            "imageUrl": "/assets/img/event/ideathon.png",
+            "status":"Ended",
+            "links":"https://ideathon.devstations.tech/"
+        },
+        {
+          "id": 3,
+          "title": "Session on I2C2",
+          "text": "How to identify a problem, brainstorm and ideate a solution to it?",
+          "imageUrl": "/assets/img/event/session.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/i2c2ideathon"
+        },
+        {
+          "id": 4,
+          "title": "I2 C2 IDEATHON",
+          "text": "I2C2 : Ideate, Innovate, Code, Compete is an ideathon",
+          "imageUrl": "/assets/img/event/i2c2ideathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/i2c2ideathon"
+        },
+        {
+          "id": 5,
+          "title": "ML MARATHON",
+          "text": "We invite any researcher—from students to academics to employees of public and private organizations—to build AI applications on Microsoft AI services, using at least one of Microsoft’s AI-supporting",
+          "imageUrl": "/assets/img/event/MLMarathon.jpg",
+          "status":"Ended",
+          "links":"https://www.reskilll.com/hack/mlmarathon"
+        },
+        {
+          "id": 6,
+          "title": "Bootcamp Chronicals",
+          "text": "Join the #BootcampChronicles, a *10-day bootcamp* by #DevStation & #zbyte. Learn to build #DApps with #Web3 tools 🚀  Get a participation certificate 📜 & a chance to earn an #NFT 🎁 ",
+          "imageUrl": "/assets/img/event/bootcamp.jpg",
+          "status":"ended",
+          "links":"https://lu.ma/w2tow3"
+        }
+        
+      ]
+    }
+  }

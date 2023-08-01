@@ -13,10 +13,8 @@ import {
   CardTitle,
   CardText,
 } from "reactstrap";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Particle from "../components/Particle";
-import ImportantBar from "../components/importantBar";
+
+
 
 const EventPage = () => {
   const imgDetails = carousel.carouselImage.imgDetails;
@@ -25,8 +23,8 @@ const EventPage = () => {
 
   return (
     <div style={{ color: "whitesmoke" }}>
-      <Header />
-      {/* <ImportantBar/> */}
+  
+    
       <div className={styles.container} style={{ paddingTop: "30px" }}>
         <Carousel
           interval={1500}
@@ -101,8 +99,7 @@ const EventPage = () => {
           ))}
         </div>
       </div>
-      <Footer />
-      <Particle />
+  
     </div>
   );
 };
