@@ -11,6 +11,8 @@ import {
   FaPalette,
 } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import Background from "./background";
+
 const index = () => {
   const services = [
     {
@@ -49,7 +51,7 @@ const index = () => {
         "We provide top-notch web development services to bring your ideas to life.",
       icon: <FaCode />,
     },
-    
+
     {
       title: "Content Writing",
       description:
@@ -71,17 +73,21 @@ const index = () => {
   ];
 
   return (
-    <div className="max-w-screen-lg mx-auto px-4 md:px-6 lg:px-8 py-8">
+    <div className={`max-w-screen-lg mx-auto px-4 md:px-6 lg:px-8 py-8 ${ <Background />} `}>
+     
       <div className="flex flex-col justify-center align-middle lg:p-9 p-2">
-        <div className="flex flex-wrap justify-between align-middle max-w-7xl mx-auto">
+        <div className="flex flex-wrap justify-between items-center align-middle max-w-7xl mx-auto">
           <div className="flex-[50%] ">
             {/* text */}
-            <h1 className="text-4xl font-semibold">
+            <h1 className="md:text-6xl text-3xl font-semibold">
               Innovative Solutions for a{" "}
               <span className="text-yellow-500">Tech-Driven</span> World
-              <span className="block text-2xl text-[#ffd700] ">Decentralized Innovation Hub</span>
+              <span className="block text-xl text-[#ffd700] ">
+                Decentralized Innovation Hub
+              </span>
             </h1>
-            <p className="text-xl text-justify">
+            <br />
+            <p className="text-md text-justify">
               In a rapidly evolving digital landscape, we offer innovative
               solutions to address modern challenges. Our web design and
               software development services are tailored to your specific needs,
@@ -94,23 +100,30 @@ const index = () => {
               alt="hero"
               className="hero-image"
             />
+            <div className="col-md-6 blur-3xl bg-yellow-600 "></div>
           </div>
         </div>
       </div>
       <div className="service-section md:py-10 py-4 bg-transparent">
+        <h1 className="text-3xl text-center font-bold my-6">OUR SERVICES</h1>
         <div className=" md:mx-auto mx-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <div key={index}>
                 <ServiceCard {...service} />
+                
               </div>
             ))}
           </div>
         </div>
       </div>
+      <br /><div className="col-md-6 blur-3xl bg-gray-600 "></div>
+      <br />
+      <div>
+        <ContactForm />
+      </div>
       <br />
       <br />
-      <div><ContactForm/></div>
     </div>
   );
 };
