@@ -2,21 +2,7 @@ import ev from "./events.json";
 
 const index = () => {
   const eventDetails = ev.eventImage.eventDetails;
-  // const activeEvent = eventDetails.filter((event) => event.status === "active");
-  // const pastEvent = eventDetails.filter((event) => event.status === "past");
-  // const upcomingEvent = eventDetails.filter(
-  //   (event) => event.status === "upcoming"
-  // );
-  // console.log(activeEvent);
-  // console.log(pastEvent);
-  // console.log(upcomingEvent);
-
-  // if (!eventDetails) {
-  //   return <div>Loading...</div>;
-  // }
-  // if (eventDetails.length === 0) {
-  //   return <div>No Event Found</div>;
-  // }
+  
   if(eventDetails.status === "upcoming"){
     return(
       <div className="max-w-screen-lg mx-auto px-4 md:px-6 lg:px-8 py-8">

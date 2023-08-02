@@ -30,12 +30,12 @@ const Header = () => {
     },
     {
       name: "Services",
-      path: "/#services",
+      path: "/services",
     },
   ];
 
   return (
-    <div className="fixed w-full  shadow-3xl text-white  py-3 bg-black z-[100] px-4  md:px-20  shadow-sm shadow-current  ">
+    <div className="fixed w-full  shadow-3xl text-white  py-3 bg-black z-[100] px-4  md:px-20  shadow-sm shadow-current   ">
       <div className="flex items-center justify-between h-16 ">
         <Link
           href="/"
